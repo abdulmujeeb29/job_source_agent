@@ -1,0 +1,239 @@
+{
+  "run_id": "8aaac9345c0c45fb995ad524ab47874e",
+  "input_url": "https://www.linkedin.com/jobs/view/4464261610/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4464261610/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Cloudflare",
+  "company_website": "https://www.cloudflare.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/cloudflare",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4464261610/",
+      "job_id": "4464261610"
+    },
+    {
+      "url": "https://www.linkedin.com/company/cloudflare",
+      "field": "website",
+      "value": "https://www.cloudflare.com"
+    }
+  ],
+  "careers_url": "https://www.cloudflare.com/careers/",
+  "jobs_url": "https://www.cloudflare.com/careers/jobs/",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "At Cloudflare, we want you to have the career of your dreams.",
+    "collection_evidence": "Open roles\n360 roles",
+    "listings": [
+      {
+        "title": "Senior Forward Deployed Engineer",
+        "url": "https://boards.greenhouse.io/cloudflare/jobs/8184169?gh_jid=8184169"
+      },
+      {
+        "title": "Senior Engineering Manager, Observability",
+        "url": "https://boards.greenhouse.io/cloudflare/jobs/8185558?gh_jid=8185558"
+      },
+      {
+        "title": "Systems Engineer",
+        "url": "https://boards.greenhouse.io/cloudflare/jobs/8203784?gh_jid=8203784"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Senior Forward Deployed Engineer\n(opens in a new tab)\nEmerging Technology & Incubation · Engineering · Sales\n·\n,\nLondon, UK\nYesterday\nDate posted: September 16, 2026",
+        "url": "https://boards.greenhouse.io/cloudflare/jobs/8184169?gh_jid=8184169",
+        "frame_url": "https://www.cloudflare.com/careers/jobs/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Engineering Manager, Observability\n(opens in a new tab)\nEngineering\n·\n,\nAustin, US\nYesterday\nDate posted: September 16, 2026",
+        "url": "https://boards.greenhouse.io/cloudflare/jobs/8185558?gh_jid=8185558",
+        "frame_url": "https://www.cloudflare.com/careers/jobs/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Systems Engineer\n(opens in a new tab)\nEngineering\n·\n,\nAustin, US\nYesterday\nDate posted: September 16, 2026",
+        "url": "https://boards.greenhouse.io/cloudflare/jobs/8203784?gh_jid=8203784",
+        "frame_url": "https://www.cloudflare.com/careers/jobs/",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://job-boards.greenhouse.io/cloudflare/jobs/8184169?gh_jid=8184169",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:57:17.475902+00:00",
+    "page_url": "https://www.cloudflare.com/careers/jobs/",
+    "screenshot": "/api/runs/8aaac9345c0c45fb995ad524ab47874e/artifacts/step-04.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:56:30.821273+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:56:48.964091+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Cloudflare.",
+      "url": "https://www.cloudflare.com"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:56:57.135514+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.cloudflare.com/",
+      "title": "Cloudflare: Build for the agent era",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:57:01.676152+00:00",
+      "stage": "deciding",
+      "message": "Follow the official Careers link to locate Cloudflare’s public job collection.",
+      "url": "https://www.cloudflare.com/",
+      "action": "click",
+      "target": "@e17",
+      "page_kind": "other",
+      "screenshot": "/api/runs/8aaac9345c0c45fb995ad524ab47874e/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:57:02.514480+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.cloudflare.com/",
+      "action": "click",
+      "target": "@e17"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:57:02.790994+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.cloudflare.com/careers/",
+      "title": "Cloudflare Careers | Cloudflare",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:57:05.790035+00:00",
+      "stage": "deciding",
+      "message": "Follow See Open Positions to inspect Cloudflare’s jobs collection.",
+      "url": "https://www.cloudflare.com/careers/",
+      "action": "click",
+      "target": "@e59",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/8aaac9345c0c45fb995ad524ab47874e/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:57:06.378329+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.cloudflare.com/careers/",
+      "action": "click",
+      "target": "@e59"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:57:06.505683+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.cloudflare.com/careers/jobs/",
+      "title": "Careers at Cloudflare — Open Positions | Cloudflare",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:57:09.184811+00:00",
+      "stage": "deciding",
+      "message": "The Open roles section is still loading; wait for actual roles and job-detail links before verification.",
+      "url": "https://www.cloudflare.com/careers/jobs/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/8aaac9345c0c45fb995ad524ab47874e/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:57:10.586657+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.cloudflare.com/careers/jobs/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:57:10.920440+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.cloudflare.com/careers/jobs/",
+      "title": "Careers at Cloudflare — Open Positions | Cloudflare",
+      "step": 4
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:57:15.766349+00:00",
+      "stage": "deciding",
+      "message": "Cloudflare’s official jobs collection displays 360 roles with department and location filters and direct job-detail links.",
+      "url": "https://www.cloudflare.com/careers/jobs/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/8aaac9345c0c45fb995ad524ab47874e/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:57:15.766912+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.cloudflare.com/careers/jobs/"
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:57:17.765893+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:56:30.808554+00:00",
+  "started_at": "2026-09-16T22:56:30.808904+00:00",
+  "finished_at": "2026-09-16T22:57:17.765864+00:00",
+  "duration_ms": 46957,
+  "model_usage": {
+    "input_tokens": 31940,
+    "output_tokens": 442,
+    "requests": 4
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "avhWB1PLfMjiWwEuh",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "v9DyYu9vKwFYkjbdu",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 4
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

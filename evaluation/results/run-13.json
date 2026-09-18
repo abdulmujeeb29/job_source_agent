@@ -1,0 +1,537 @@
+{
+  "run_id": "94ef5a2561584c1aab9b2d37a787f79c",
+  "input_url": "https://www.linkedin.com/jobs/view/4461020080/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4461020080/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": "Bolt.Earth",
+  "company_website": "https://bolt.earth/",
+  "company_linkedin_url": "https://www.linkedin.com/company/boltearth",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4461020080/",
+      "job_id": "4461020080"
+    },
+    {
+      "url": "https://www.linkedin.com/company/boltearth",
+      "field": "website",
+      "value": "https://bolt.earth/"
+    }
+  ],
+  "careers_url": "https://bolt.earth/careers",
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:51:35.801495+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:51:49.611717+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Bolt.Earth.",
+      "url": "https://bolt.earth/"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:51:58.571988+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.earth/",
+      "title": "Bolt.Earth - EV Charging Stations and Solutions",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:52:03.114216+00:00",
+      "stage": "deciding",
+      "message": "Follow the official Careers link to find open roles.",
+      "url": "https://bolt.earth/",
+      "action": "click",
+      "target": "@e11",
+      "page_kind": "other",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:52:03.625840+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.earth/",
+      "action": "click",
+      "target": "@e11"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:52:03.676740+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.earth/careers",
+      "title": "Careers - Bolt Earth",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:52:07.816921+00:00",
+      "stage": "deciding",
+      "message": "Follow the official careers page’s job-board link to inspect open roles.",
+      "url": "https://bolt.earth/careers",
+      "action": "click",
+      "target": "@e41",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:52:09.701619+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.earth/careers",
+      "action": "click",
+      "target": "@e41"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:52:09.784384+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:52:12.567001+00:00",
+      "stage": "deciding",
+      "message": "The linked Bolt.Earth board shows an Open positions heading but no roles or explicit empty-state message; allow time for listings to load.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:52:13.969479+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:52:14.023979+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 4
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:52:19.146304+00:00",
+      "stage": "deciding",
+      "message": "The official careers link led to this jobs collection. Inspect a role for explicit Bolt.Earth text before returning to verify the collection.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "click",
+      "target": "@e8",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:52:19.618070+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "click",
+      "target": "@e8"
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:52:19.931394+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "title": "",
+      "step": 5
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:52:22.879573+00:00",
+      "stage": "deciding",
+      "message": "Bolt.Earth association and a role URL are confirmed; return to the jobs collection for verification.",
+      "url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "action": "click",
+      "target": "@e4",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-05.png",
+      "step": 5
+    },
+    {
+      "id": 17,
+      "at": "2026-09-16T22:52:23.594286+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "action": "click",
+      "target": "@e4"
+    },
+    {
+      "id": 18,
+      "at": "2026-09-16T22:52:23.662992+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 6
+    },
+    {
+      "id": 19,
+      "at": "2026-09-16T22:52:26.647709+00:00",
+      "stage": "deciding",
+      "message": "The collection is blank immediately after returning from the confirmed role; wait for it to render before verification.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "other",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-06.png",
+      "step": 6
+    },
+    {
+      "id": 20,
+      "at": "2026-09-16T22:52:28.050798+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 21,
+      "at": "2026-09-16T22:52:28.096885+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 7
+    },
+    {
+      "id": 22,
+      "at": "2026-09-16T22:52:32.143702+00:00",
+      "stage": "deciding",
+      "message": "Reload the collection: after returning from the confirmed role, only its heading rendered. Restore the listings before verification.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "open",
+      "target": "https://bolt.keka.com/careers/",
+      "page_kind": "other",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-07.png",
+      "step": 7
+    },
+    {
+      "id": 23,
+      "at": "2026-09-16T22:52:32.144578+00:00",
+      "stage": "recovering",
+      "message": "Model proposed a URL not present in the current observation.",
+      "url": "https://bolt.keka.com/careers/"
+    },
+    {
+      "id": 24,
+      "at": "2026-09-16T22:52:32.191302+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 8
+    },
+    {
+      "id": 25,
+      "at": "2026-09-16T22:52:37.499163+00:00",
+      "stage": "deciding",
+      "message": "The jobs collection has rendered. Inspect a role to capture verbatim Bolt.Earth company evidence before final collection verification.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "click",
+      "target": "@e8",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-08.png",
+      "step": 8
+    },
+    {
+      "id": 26,
+      "at": "2026-09-16T22:52:37.957052+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "click",
+      "target": "@e8"
+    },
+    {
+      "id": 27,
+      "at": "2026-09-16T22:52:38.036547+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "title": "",
+      "step": 9
+    },
+    {
+      "id": 28,
+      "at": "2026-09-16T22:52:40.746811+00:00",
+      "stage": "deciding",
+      "message": "Return to the jobs collection now that the role URL and Bolt.Earth association are confirmed.",
+      "url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "action": "click",
+      "target": "@e4",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-09.png",
+      "step": 9
+    },
+    {
+      "id": 29,
+      "at": "2026-09-16T22:52:41.202044+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "action": "click",
+      "target": "@e4"
+    },
+    {
+      "id": 30,
+      "at": "2026-09-16T22:52:41.287837+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 10
+    },
+    {
+      "id": 31,
+      "at": "2026-09-16T22:52:43.858179+00:00",
+      "stage": "deciding",
+      "message": "Allow the collection to finish rendering after returning from the confirmed Bolt.Earth role.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "other",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-10.png",
+      "step": 10
+    },
+    {
+      "id": 32,
+      "at": "2026-09-16T22:52:45.261285+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 33,
+      "at": "2026-09-16T22:52:45.315131+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 11
+    },
+    {
+      "id": 34,
+      "at": "2026-09-16T22:52:51.887593+00:00",
+      "stage": "deciding",
+      "message": "The jobs collection is visible, and the previously inspected role confirmed its Bolt.Earth association.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-11.png",
+      "step": 11
+    },
+    {
+      "id": 35,
+      "at": "2026-09-16T22:52:51.888804+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://bolt.keka.com/careers/"
+    },
+    {
+      "id": 36,
+      "at": "2026-09-16T22:52:51.889334+00:00",
+      "stage": "recovering",
+      "message": "Verification excerpts were not found in rendered page text.",
+      "url": "https://bolt.keka.com/careers/"
+    },
+    {
+      "id": 37,
+      "at": "2026-09-16T22:52:51.935358+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 12
+    },
+    {
+      "id": 38,
+      "at": "2026-09-16T22:52:58.534891+00:00",
+      "stage": "deciding",
+      "message": "The collection is visible, but verification lacked a matching company excerpt. Inspect the page header for rendered company identification.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "scroll",
+      "target": "up",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-12.png",
+      "step": 12
+    },
+    {
+      "id": 39,
+      "at": "2026-09-16T22:52:58.953762+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "scroll",
+      "target": "up"
+    },
+    {
+      "id": 40,
+      "at": "2026-09-16T22:52:59.010309+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 13
+    },
+    {
+      "id": 41,
+      "at": "2026-09-16T22:53:04.395435+00:00",
+      "stage": "deciding",
+      "message": "The collection has real openings but no rendered company identification. Backtrack to the official careers route to establish verifiable Bolt.Earth association.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "back",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-13.png",
+      "step": 13
+    },
+    {
+      "id": 42,
+      "at": "2026-09-16T22:53:05.118822+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "back",
+      "target": ""
+    },
+    {
+      "id": 43,
+      "at": "2026-09-16T22:53:05.231189+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "title": "",
+      "step": 14
+    },
+    {
+      "id": 44,
+      "at": "2026-09-16T22:53:10.647799+00:00",
+      "stage": "deciding",
+      "message": "This role confirms Bolt.Earth identity but is not a collection. Continue backtracking toward the official careers page after the board's verification lacked rendered company evidence.",
+      "url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "action": "back",
+      "target": "",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-14.png",
+      "step": 14
+    },
+    {
+      "id": 45,
+      "at": "2026-09-16T22:53:11.329476+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "action": "back",
+      "target": ""
+    },
+    {
+      "id": 46,
+      "at": "2026-09-16T22:53:11.437051+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/",
+      "title": "",
+      "step": 15
+    },
+    {
+      "id": 47,
+      "at": "2026-09-16T22:53:16.171376+00:00",
+      "stage": "deciding",
+      "message": "The board currently shows only “Open positions,” with no company identification. Continue back to the official careers route to establish Bolt.Earth association.",
+      "url": "https://bolt.keka.com/careers/",
+      "action": "back",
+      "target": "",
+      "page_kind": "other",
+      "screenshot": "/api/runs/94ef5a2561584c1aab9b2d37a787f79c/artifacts/step-15.png",
+      "step": 15
+    },
+    {
+      "id": 48,
+      "at": "2026-09-16T22:53:16.912768+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://bolt.keka.com/careers/",
+      "action": "back",
+      "target": ""
+    },
+    {
+      "id": 49,
+      "at": "2026-09-16T22:53:17.002430+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://bolt.keka.com/careers/jobdetails/151230",
+      "title": "",
+      "step": 16
+    },
+    {
+      "id": 50,
+      "at": "2026-09-16T22:53:19.999420+00:00",
+      "stage": "failed",
+      "message": "The agent repeated the same action without page progress."
+    }
+  ],
+  "failure_code": "navigation_exhausted",
+  "failure_reason": "The agent repeated the same action without page progress.",
+  "created_at": "2026-09-16T22:51:35.787791+00:00",
+  "started_at": "2026-09-16T22:51:35.788005+00:00",
+  "finished_at": "2026-09-16T22:53:19.999392+00:00",
+  "duration_ms": 104211,
+  "model_usage": {
+    "input_tokens": 62054,
+    "output_tokens": 2324,
+    "requests": 16
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "Ml6Ad203k1pDugh8f",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "vPbq3jm0viqRvbfJk",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 16
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

@@ -1,0 +1,209 @@
+{
+  "run_id": "e8a372f2159c4a799cda7093ce1a9a29",
+  "input_url": "https://www.linkedin.com/jobs/view/4459955796/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4459955796/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Redcare Pharmacy",
+  "company_website": "http://www.redcare-pharmacy.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/redcare-pharmacy-com",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4459955796/",
+      "job_id": "4459955796"
+    },
+    {
+      "url": "https://www.linkedin.com/company/redcare-pharmacy-com",
+      "field": "website",
+      "value": "http://www.redcare-pharmacy.com"
+    }
+  ],
+  "careers_url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+  "jobs_url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Copyright © 2026 Redcare Pharmacy. All rights reserved.",
+    "collection_evidence": "Discover our open jobs.\n\nLocation:\nDepartment:\nJobs226",
+    "listings": [
+      {
+        "title": "Digital Analytics Manager (m/f/d) - Maternity cover",
+        "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000149829034"
+      },
+      {
+        "title": "Senior AI Engineer (m/f/d)",
+        "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000149802610"
+      },
+      {
+        "title": "Senior Retail Buyer – Health & Beauty",
+        "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000149786899"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Digital Analytics Manager (m/f/d) - Maternity cover\n\nCologne\n\nPosted on 16.09.2026",
+        "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000149829034",
+        "frame_url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior AI Engineer (m/f/d)\n\nCologne\n\nPosted on 16.09.2026",
+        "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000149802610",
+        "frame_url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Retail Buyer – Health & Beauty\n\nMilan\n\nPosted on 16.09.2026",
+        "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000149786899",
+        "frame_url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000149829034",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:44:10.243711+00:00",
+    "page_url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+    "screenshot": "/api/runs/e8a372f2159c4a799cda7093ce1a9a29/artifacts/step-03.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:43:32.209894+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:43:48.182740+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Redcare Pharmacy.",
+      "url": "http://www.redcare-pharmacy.com"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:43:55.613846+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.redcare-pharmacy.com/home",
+      "title": "Redcare Home Page | Redcare Pharmacy",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:43:59.832661+00:00",
+      "stage": "deciding",
+      "message": "Follow the official site's Jobs link to its openings collection.",
+      "url": "https://www.redcare-pharmacy.com/home",
+      "action": "click",
+      "target": "@e65",
+      "page_kind": "other",
+      "screenshot": "/api/runs/e8a372f2159c4a799cda7093ce1a9a29/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:44:00.318166+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.redcare-pharmacy.com/home",
+      "action": "click",
+      "target": "@e65"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:44:00.370720+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+      "title": "Jobs | Redcare Pharmacy",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:44:03.683282+00:00",
+      "stage": "deciding",
+      "message": "Dismiss the consent overlay and allow any consent-dependent jobs board to load.",
+      "url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+      "action": "click",
+      "target": "@e20",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/e8a372f2159c4a799cda7093ce1a9a29/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:44:04.138132+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+      "action": "click",
+      "target": "@e20"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:44:04.196182+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+      "title": "Jobs | Redcare Pharmacy",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:44:08.632572+00:00",
+      "stage": "deciding",
+      "message": "The official Redcare Pharmacy jobs collection displays 226 openings with direct job-detail links.",
+      "url": "https://www.redcare-pharmacy.com/careers/open-jobs",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/e8a372f2159c4a799cda7093ce1a9a29/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:44:08.633405+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.redcare-pharmacy.com/careers/open-jobs"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:44:10.633699+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:43:32.196300+00:00",
+  "started_at": "2026-09-16T22:43:32.196567+00:00",
+  "finished_at": "2026-09-16T22:44:10.633668+00:00",
+  "duration_ms": 38437,
+  "model_usage": {
+    "input_tokens": 20114,
+    "output_tokens": 389,
+    "requests": 3
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "FgPBDaO1cDKVZd5WJ",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "xNxth1d8DKaOB2rPa",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 3
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

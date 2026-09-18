@@ -1,0 +1,646 @@
+{
+  "run_id": "656dcc2e58ff4cd293b7c7eca98b8cca",
+  "input_url": "https://www.linkedin.com/jobs/view/4465237802/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4465237802/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": "Intelligent People",
+  "company_website": "http://www.intelligentpeople.co.uk",
+  "company_linkedin_url": "https://www.linkedin.com/company/intelligent-people",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4465237802/",
+      "job_id": "4465237802"
+    },
+    {
+      "url": "https://www.linkedin.com/company/intelligent-people",
+      "field": "website",
+      "value": "http://www.intelligentpeople.co.uk"
+    }
+  ],
+  "careers_url": "https://www.intelligentpeople.co.uk/jobs/",
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:41:00.197443+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:41:13.551134+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Intelligent People.",
+      "url": "http://www.intelligentpeople.co.uk"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:41:20.155044+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/",
+      "title": "Product Management, Marketing & ECommerce Recruitment Agency",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:41:24.151788+00:00",
+      "stage": "deciding",
+      "message": "Follow the official Jobs link to inspect the public jobs collection.",
+      "url": "https://www.intelligentpeople.co.uk/",
+      "action": "click",
+      "target": "@e30",
+      "page_kind": "other",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:41:26.242224+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/",
+      "action": "click",
+      "target": "@e30"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:41:26.876037+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:41:36.190267+00:00",
+      "stage": "deciding",
+      "message": "The official site's Jobs link leads to a searchable collection with multiple current vacancies and direct role URLs. These are Intelligent People's recruitment listings for clients.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:41:36.191171+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:41:36.193459+00:00",
+      "stage": "recovering",
+      "message": "Company evidence does not contain an identifiable part of the hiring company name.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/"
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:41:36.452227+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:41:43.822938+00:00",
+      "stage": "deciding",
+      "message": "The jobs collection and role URLs are clear; inspect the footer for rendered Intelligent People identity text to complete company verification.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:41:44.239252+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down"
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:41:44.362517+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:41:49.199039+00:00",
+      "stage": "deciding",
+      "message": "Inspect the official About page for rendered company-name evidence, then return to verify this jobs collection.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "click",
+      "target": "@e377",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:41:49.681254+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "click",
+      "target": "@e377"
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:41:49.811794+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 5
+    },
+    {
+      "id": 17,
+      "at": "2026-09-16T22:41:53.128888+00:00",
+      "stage": "deciding",
+      "message": "Open About home to obtain rendered company-name evidence; the previous About click only expanded its menu.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "click",
+      "target": "@e413",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-05.png",
+      "step": 5
+    },
+    {
+      "id": 18,
+      "at": "2026-09-16T22:41:53.625580+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "click",
+      "target": "@e413"
+    },
+    {
+      "id": 19,
+      "at": "2026-09-16T22:41:53.814827+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/about-us/",
+      "title": "About Us Intelligent People Digital Recruitment Agency",
+      "step": 6
+    },
+    {
+      "id": 20,
+      "at": "2026-09-16T22:41:56.736760+00:00",
+      "stage": "deciding",
+      "message": "Company identity is confirmed in rendered text; return to the Jobs collection to inspect and verify its role links.",
+      "url": "https://www.intelligentpeople.co.uk/about-us/",
+      "action": "click",
+      "target": "@e40",
+      "page_kind": "other",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-06.png",
+      "step": 6
+    },
+    {
+      "id": 21,
+      "at": "2026-09-16T22:41:57.926507+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/about-us/",
+      "action": "click",
+      "target": "@e40"
+    },
+    {
+      "id": 22,
+      "at": "2026-09-16T22:41:58.528245+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 7
+    },
+    {
+      "id": 23,
+      "at": "2026-09-16T22:42:03.239947+00:00",
+      "stage": "deciding",
+      "message": "The jobs collection and role URLs are clear; inspect the footer for rendered company-name evidence required for verification.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-07.png",
+      "step": 7
+    },
+    {
+      "id": 24,
+      "at": "2026-09-16T22:42:03.656070+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down"
+    },
+    {
+      "id": 25,
+      "at": "2026-09-16T22:42:03.901411+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 8
+    },
+    {
+      "id": 26,
+      "at": "2026-09-16T22:42:11.625559+00:00",
+      "stage": "deciding",
+      "message": "The collection and role URLs are confirmed. Read About for an exact rendered company-name excerpt needed to verify this board.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/about-us/",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-08.png",
+      "step": 8
+    },
+    {
+      "id": 27,
+      "at": "2026-09-16T22:42:13.076150+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/about-us/"
+    },
+    {
+      "id": 28,
+      "at": "2026-09-16T22:42:13.331725+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/about-us/",
+      "title": "About Us Intelligent People Digital Recruitment Agency",
+      "step": 9
+    },
+    {
+      "id": 29,
+      "at": "2026-09-16T22:42:16.859583+00:00",
+      "stage": "deciding",
+      "message": "Return to the jobs collection; the About page explicitly confirms Intelligent People’s identity.",
+      "url": "https://www.intelligentpeople.co.uk/about-us/",
+      "action": "click",
+      "target": "@e40",
+      "page_kind": "other",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-09.png",
+      "step": 9
+    },
+    {
+      "id": 30,
+      "at": "2026-09-16T22:42:18.087920+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/about-us/",
+      "action": "click",
+      "target": "@e40"
+    },
+    {
+      "id": 31,
+      "at": "2026-09-16T22:42:19.028195+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 10
+    },
+    {
+      "id": 32,
+      "at": "2026-09-16T22:42:25.894983+00:00",
+      "stage": "deciding",
+      "message": "Read the exact rendered company-name excerpt; prior events confirm identity but do not preserve the required quotation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/about-us/",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-10.png",
+      "step": 10
+    },
+    {
+      "id": 33,
+      "at": "2026-09-16T22:42:26.912260+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/about-us/"
+    },
+    {
+      "id": 34,
+      "at": "2026-09-16T22:42:27.199462+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/about-us/",
+      "title": "About Us Intelligent People Digital Recruitment Agency",
+      "step": 11
+    },
+    {
+      "id": 35,
+      "at": "2026-09-16T22:42:30.796446+00:00",
+      "stage": "deciding",
+      "message": "Return to the jobs collection for verification. Preserve this exact rendered company evidence: “Founded in 2002, Intelligent People has become the leading recruitment agency for London, connecting employers with specialist candidates across the UK and beyond.”",
+      "url": "https://www.intelligentpeople.co.uk/about-us/",
+      "action": "click",
+      "target": "@e40",
+      "page_kind": "other",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-11.png",
+      "step": 11
+    },
+    {
+      "id": 36,
+      "at": "2026-09-16T22:42:32.050925+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/about-us/",
+      "action": "click",
+      "target": "@e40"
+    },
+    {
+      "id": 37,
+      "at": "2026-09-16T22:42:32.675531+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 12
+    },
+    {
+      "id": 38,
+      "at": "2026-09-16T22:42:38.073034+00:00",
+      "stage": "deciding",
+      "message": "Official-site jobs collection contains multiple roles with direct detail links; the previously inspected About page confirms company identity.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-12.png",
+      "step": 12
+    },
+    {
+      "id": 39,
+      "at": "2026-09-16T22:42:38.074368+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/"
+    },
+    {
+      "id": 40,
+      "at": "2026-09-16T22:42:38.075581+00:00",
+      "stage": "recovering",
+      "message": "Verification excerpts were not found in rendered page text.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/"
+    },
+    {
+      "id": 41,
+      "at": "2026-09-16T22:42:38.329895+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 13
+    },
+    {
+      "id": 42,
+      "at": "2026-09-16T22:42:43.451941+00:00",
+      "stage": "deciding",
+      "message": "Inspect the jobs-page footer for a rendered company-name excerpt; verification requires identity evidence present on this collection page.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-13.png",
+      "step": 13
+    },
+    {
+      "id": 43,
+      "at": "2026-09-16T22:42:43.872519+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down"
+    },
+    {
+      "id": 44,
+      "at": "2026-09-16T22:42:44.003439+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 14
+    },
+    {
+      "id": 45,
+      "at": "2026-09-16T22:42:51.448807+00:00",
+      "stage": "deciding",
+      "message": "Inspect the final collection page, where fewer results may expose the footer’s rendered company identity text required for verification.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/jobs/?sf_paged=19",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-14.png",
+      "step": 14
+    },
+    {
+      "id": 46,
+      "at": "2026-09-16T22:42:54.524770+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/jobs/?sf_paged=19"
+    },
+    {
+      "id": 47,
+      "at": "2026-09-16T22:42:54.857546+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/?sf_paged=19",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 15
+    },
+    {
+      "id": 48,
+      "at": "2026-09-16T22:42:59.531523+00:00",
+      "stage": "deciding",
+      "message": "This last page contains only filled vacancies. Return to the main jobs collection to sample current openings rather than verify archived roles.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/?sf_paged=19",
+      "action": "click",
+      "target": "@e12",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-15.png",
+      "step": 15
+    },
+    {
+      "id": 49,
+      "at": "2026-09-16T22:43:00.868063+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/?sf_paged=19",
+      "action": "click",
+      "target": "@e12"
+    },
+    {
+      "id": 50,
+      "at": "2026-09-16T22:43:01.683913+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 16
+    },
+    {
+      "id": 51,
+      "at": "2026-09-16T22:43:07.808379+00:00",
+      "stage": "deciding",
+      "message": "Inspect the observed Careers and culture route for Intelligent People’s own openings and explicit rendered company identity; the current board primarily advertises client roles.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/careers/",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-16.png",
+      "step": 16
+    },
+    {
+      "id": 52,
+      "at": "2026-09-16T22:43:10.460707+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "open",
+      "target": "https://www.intelligentpeople.co.uk/careers/"
+    },
+    {
+      "id": 53,
+      "at": "2026-09-16T22:43:10.855301+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/careers/",
+      "title": "Careers - Intelligent People",
+      "step": 17
+    },
+    {
+      "id": 54,
+      "at": "2026-09-16T22:43:14.618619+00:00",
+      "stage": "deciding",
+      "message": "The careers page describes culture but lists no roles. Return to the official public Jobs collection to inspect current vacancies.",
+      "url": "https://www.intelligentpeople.co.uk/careers/",
+      "action": "click",
+      "target": "@e29",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-17.png",
+      "step": 17
+    },
+    {
+      "id": 55,
+      "at": "2026-09-16T22:43:15.799057+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/careers/",
+      "action": "click",
+      "target": "@e29"
+    },
+    {
+      "id": 56,
+      "at": "2026-09-16T22:43:16.467898+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 18
+    },
+    {
+      "id": 57,
+      "at": "2026-09-16T22:43:23.140601+00:00",
+      "stage": "deciding",
+      "message": "Current openings and exact role links are visible. Inspect lower-page branding for a verbatim Intelligent People identity excerpt before verification.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-18.png",
+      "step": 18
+    },
+    {
+      "id": 58,
+      "at": "2026-09-16T22:43:23.558555+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "scroll",
+      "target": "down"
+    },
+    {
+      "id": 59,
+      "at": "2026-09-16T22:43:23.821350+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "title": "Job Search With Intelligent People | Recruitment Agency",
+      "step": 19
+    },
+    {
+      "id": 60,
+      "at": "2026-09-16T22:43:31.873969+00:00",
+      "stage": "deciding",
+      "message": "Found Intelligent People’s public jobs collection on its official website, advertising client vacancies. Cannot complete verification because the available rendered text lacks a company-name excerpt; previous evidence checks failed.",
+      "url": "https://www.intelligentpeople.co.uk/jobs/",
+      "action": "stop",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/656dcc2e58ff4cd293b7c7eca98b8cca/artifacts/step-19.png",
+      "step": 19
+    },
+    {
+      "id": 61,
+      "at": "2026-09-16T22:43:32.188359+00:00",
+      "stage": "failed",
+      "message": "Found Intelligent People’s public jobs collection on its official website, advertising client vacancies. Cannot complete verification because the available rendered text lacks a company-name excerpt; previous evidence checks failed."
+    }
+  ],
+  "failure_code": "navigation_exhausted",
+  "failure_reason": "Found Intelligent People’s public jobs collection on its official website, advertising client vacancies. Cannot complete verification because the available rendered text lacks a company-name excerpt; previous evidence checks failed.",
+  "created_at": "2026-09-16T22:41:00.179572+00:00",
+  "started_at": "2026-09-16T22:41:00.179867+00:00",
+  "finished_at": "2026-09-16T22:43:32.188329+00:00",
+  "duration_ms": 152008,
+  "model_usage": {
+    "input_tokens": 348823,
+    "output_tokens": 3699,
+    "requests": 19
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "easoaJMWpESJ5duZB",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "4YLS7dVzoNcmbTqeS",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 19
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

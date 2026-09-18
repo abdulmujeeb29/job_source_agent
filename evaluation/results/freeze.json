@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-09-16T22:37:48.502631+00:00",
+  "configuration": {
+    "source_sha256": "7482c0fc215a90879ee3214e920997f32d8399cd53d9735bdf03b988c2175515",
+    "sample_sha256": "9a5cfbccac1245a0f27ae13ebb9980cc54b55f3b214b8dcf20c54e3bc491456a",
+    "environment": "local",
+    "python": "3.12.13",
+    "model": "gpt-6-astra",
+    "azure_base_url": "https://abdulmujeeb-9108-resource.services.ai.azure.com/openai/v1/",
+    "agent_browser": "agent-browser 0.33.2",
+    "max_actions": 20,
+    "deadline_seconds": 300,
+    "max_model_calls": 24,
+    "job_actor": "piotrv1001/linkedin-job-details-scraper",
+    "company_actor": "harvestapi/linkedin-company"
+  }
+}

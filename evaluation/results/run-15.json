@@ -1,0 +1,149 @@
+{
+  "run_id": "185d169ce5004f06b1c9a330073b69e1",
+  "input_url": "https://www.linkedin.com/jobs/view/4464117270/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4464117270/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Affirm",
+  "company_website": "https://www.affirm.com/careers",
+  "company_linkedin_url": "https://www.linkedin.com/company/affirm",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4464117270/",
+      "job_id": "4464117270"
+    },
+    {
+      "url": "https://www.linkedin.com/company/affirm",
+      "field": "website",
+      "value": "https://www.affirm.com/careers"
+    }
+  ],
+  "careers_url": "https://www.affirm.com/careers",
+  "jobs_url": "https://www.affirm.com/careers",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "At Affirm, complexity doesn’t scare us—it motivates us.",
+    "collection_evidence": "203 openings found",
+    "listings": [
+      {
+        "title": "Analytics Engineer II",
+        "url": "https://job-boards.greenhouse.io/affirm/jobs/7764109003"
+      },
+      {
+        "title": "Senior Manager, Financial Systems",
+        "url": "https://job-boards.greenhouse.io/affirm/jobs/7983769003"
+      },
+      {
+        "title": "Brand Marketing Manager",
+        "url": "https://job-boards.greenhouse.io/affirm/jobs/7872408003"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Analytics Engineer II\nRemote Poland",
+        "url": "https://job-boards.greenhouse.io/affirm/jobs/7764109003",
+        "frame_url": "https://www.affirm.com/careers",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Manager, Financial Systems\nRemote Canada",
+        "url": "https://job-boards.greenhouse.io/affirm/jobs/7983769003",
+        "frame_url": "https://www.affirm.com/careers",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Brand Marketing Manager\nRemote Canada",
+        "url": "https://job-boards.greenhouse.io/affirm/jobs/7872408003",
+        "frame_url": "https://www.affirm.com/careers",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7764109003",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:55:01.224411+00:00",
+    "page_url": "https://www.affirm.com/careers",
+    "screenshot": "/api/runs/185d169ce5004f06b1c9a330073b69e1/artifacts/step-01.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:54:18.506521+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:54:40.767794+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Affirm.",
+      "url": "https://www.affirm.com/careers"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:54:51.112496+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.affirm.com/careers",
+      "title": "Careers",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:54:58.155972+00:00",
+      "stage": "deciding",
+      "message": "Affirm’s official careers page contains a jobs collection with 203 openings and direct role-detail links.",
+      "url": "https://www.affirm.com/careers",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/185d169ce5004f06b1c9a330073b69e1/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:54:58.157159+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.affirm.com/careers"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:55:01.846914+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:54:18.493531+00:00",
+  "started_at": "2026-09-16T22:54:18.493887+00:00",
+  "finished_at": "2026-09-16T22:55:01.846881+00:00",
+  "duration_ms": 43353,
+  "model_usage": {
+    "input_tokens": 26156,
+    "output_tokens": 155,
+    "requests": 1
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "sgVaJ0Yqb9eiXO1Fl",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "Nvf4dpdQkxQPdGDsI",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 1
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

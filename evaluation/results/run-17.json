@@ -1,0 +1,199 @@
+{
+  "run_id": "71546fa8b6944acf87f42e8e66dcc0cd",
+  "input_url": "https://www.linkedin.com/jobs/view/4463254080/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4463254080/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Cint",
+  "company_website": "https://www.cint.com/",
+  "company_linkedin_url": "https://www.linkedin.com/company/cint",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4463254080/",
+      "job_id": "4463254080"
+    },
+    {
+      "url": "https://www.linkedin.com/company/cint",
+      "field": "website",
+      "value": "https://www.cint.com/"
+    }
+  ],
+  "careers_url": "https://careers.smartrecruiters.com/Cint",
+  "jobs_url": "https://careers.smartrecruiters.com/Cint",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Careers at Cint",
+    "collection_evidence": "Jobs at Cint\nBrowse by:\nLocation\nBarcelona, Spain3 jobs",
+    "listings": [
+      {
+        "title": "Staff Software Engineer",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000149641735-staff-software-engineer"
+      },
+      {
+        "title": "Senior Product Manager, Exchange",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000133328179-senior-product-manager-exchange"
+      },
+      {
+        "title": "Senior Software Engineer",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000126074840-senior-software-engineer"
+      },
+      {
+        "title": "Scrum Master / Delivery Coach",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000148535525-scrum-master-delivery-coach"
+      },
+      {
+        "title": "Survey Programming Consultant",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000148325771-survey-programming-consultant"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Staff Software Engineer\n\nR&D",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000149641735-staff-software-engineer",
+        "frame_url": "https://careers.smartrecruiters.com/Cint",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Product Manager, Exchange\n\nR&D",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000133328179-senior-product-manager-exchange",
+        "frame_url": "https://careers.smartrecruiters.com/Cint",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Software Engineer\n\nR&D",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000126074840-senior-software-engineer",
+        "frame_url": "https://careers.smartrecruiters.com/Cint",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Scrum Master / Delivery Coach\n\nCustomer Experience",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000148535525-scrum-master-delivery-coach",
+        "frame_url": "https://careers.smartrecruiters.com/Cint",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Survey Programming Consultant\n\nCommercial",
+        "url": "https://jobs.smartrecruiters.com/Cint/744000148325771-survey-programming-consultant",
+        "frame_url": "https://careers.smartrecruiters.com/Cint",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://jobs.smartrecruiters.com/Cint/744000149641735-staff-software-engineer",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:56:30.615394+00:00",
+    "page_url": "https://careers.smartrecruiters.com/Cint",
+    "screenshot": "/api/runs/71546fa8b6944acf87f42e8e66dcc0cd/artifacts/step-02.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:55:57.247748+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:56:10.888354+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Cint.",
+      "url": "https://www.cint.com/"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:56:16.428007+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.cint.com/",
+      "title": "The World’s Largest Global Research Marketplace | Cint™",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:56:20.747720+00:00",
+      "stage": "deciding",
+      "message": "Follow the Careers link from Cint’s official website to inspect its jobs collection.",
+      "url": "https://www.cint.com/",
+      "action": "open",
+      "target": "https://careers.smartrecruiters.com/Cint",
+      "page_kind": "other",
+      "screenshot": "/api/runs/71546fa8b6944acf87f42e8e66dcc0cd/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:56:24.119892+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.cint.com/",
+      "action": "open",
+      "target": "https://careers.smartrecruiters.com/Cint"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:56:24.266858+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://careers.smartrecruiters.com/Cint",
+      "title": "Careers at Cint",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:56:29.081383+00:00",
+      "stage": "deciding",
+      "message": "Cint’s official website links to this branded careers collection, which lists multiple openings with job-detail links.",
+      "url": "https://careers.smartrecruiters.com/Cint",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/71546fa8b6944acf87f42e8e66dcc0cd/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:56:29.081905+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://careers.smartrecruiters.com/Cint"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:56:30.801603+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:55:57.233675+00:00",
+  "started_at": "2026-09-16T22:55:57.233919+00:00",
+  "finished_at": "2026-09-16T22:56:30.801579+00:00",
+  "duration_ms": 33568,
+  "model_usage": {
+    "input_tokens": 26290,
+    "output_tokens": 330,
+    "requests": 2
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "EGtNHuIUcfUfFWsot",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "8neyoJtdTzuvdUD9U",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 2
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

@@ -1,0 +1,227 @@
+{
+  "run_id": "6db50f9556894f5c85c3942dd4eacb88",
+  "input_url": "https://www.linkedin.com/jobs/view/4463498563/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4463498563/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Kpler",
+  "company_website": "https://www.kpler.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/kpler",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4463498563/",
+      "job_id": "4463498563"
+    },
+    {
+      "url": "https://www.linkedin.com/company/kpler",
+      "field": "website",
+      "value": "https://www.kpler.com"
+    }
+  ],
+  "careers_url": "https://www.kpler.com/company/careers",
+  "jobs_url": "https://jobs.lever.co/kpler",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Kpler Home Page",
+    "collection_evidence": "AGS & DRY\nAPPLY\nMarket Data Analyst Metals & Minerals",
+    "listings": [
+      {
+        "title": "Market Data Analyst Metals & Minerals",
+        "url": "https://jobs.lever.co/kpler/8c26d839-713f-4bfb-82cd-cc2a38938358"
+      },
+      {
+        "title": "Quantitative Freight Analyst - Dry Bulk",
+        "url": "https://jobs.lever.co/kpler/6c0d8fa8-0156-4f43-ac47-85cc37b8ed1c"
+      },
+      {
+        "title": "Senior Biofuels Research Analyst",
+        "url": "https://jobs.lever.co/kpler/89347b75-036c-4ae6-8f55-ff7834462edc"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "APPLY",
+        "url": "https://jobs.lever.co/kpler/8c26d839-713f-4bfb-82cd-cc2a38938358",
+        "frame_url": "https://jobs.lever.co/kpler",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Market Data Analyst Metals & Minerals\nHYBRID — FULL-TIMEUNITED KINGDOM",
+        "url": "https://jobs.lever.co/kpler/8c26d839-713f-4bfb-82cd-cc2a38938358",
+        "frame_url": "https://jobs.lever.co/kpler",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "APPLY",
+        "url": "https://jobs.lever.co/kpler/6c0d8fa8-0156-4f43-ac47-85cc37b8ed1c",
+        "frame_url": "https://jobs.lever.co/kpler",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Quantitative Freight Analyst - Dry Bulk\nHYBRID — FULL-TIMELONDON",
+        "url": "https://jobs.lever.co/kpler/6c0d8fa8-0156-4f43-ac47-85cc37b8ed1c",
+        "frame_url": "https://jobs.lever.co/kpler",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "APPLY",
+        "url": "https://jobs.lever.co/kpler/89347b75-036c-4ae6-8f55-ff7834462edc",
+        "frame_url": "https://jobs.lever.co/kpler",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Biofuels Research Analyst\nHYBRID — HOUSTON",
+        "url": "https://jobs.lever.co/kpler/89347b75-036c-4ae6-8f55-ff7834462edc",
+        "frame_url": "https://jobs.lever.co/kpler",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://jobs.lever.co/kpler/8c26d839-713f-4bfb-82cd-cc2a38938358",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:54:18.232587+00:00",
+    "page_url": "https://jobs.lever.co/kpler",
+    "screenshot": "/api/runs/6db50f9556894f5c85c3942dd4eacb88/artifacts/step-03.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:53:20.021672+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:53:36.271163+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Kpler.",
+      "url": "https://www.kpler.com"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:53:50.144292+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.kpler.com/",
+      "title": "Kpler | Real-Time Trade Intelligence Tools for Global Markets",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:53:55.668172+00:00",
+      "stage": "deciding",
+      "message": "Follow the official site's Open Positions link to locate the jobs collection.",
+      "url": "https://www.kpler.com/",
+      "action": "open",
+      "target": "https://www.kpler.com/company/careers",
+      "page_kind": "other",
+      "screenshot": "/api/runs/6db50f9556894f5c85c3942dd4eacb88/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:53:58.334402+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.kpler.com/",
+      "action": "open",
+      "target": "https://www.kpler.com/company/careers"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:53:59.123141+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.kpler.com/company/careers",
+      "title": "Careers at Kpler | Work Where Innovation Meets Flexibility",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:54:03.411724+00:00",
+      "stage": "deciding",
+      "message": "Follow Kpler’s official Search jobs link to inspect its public jobs collection.",
+      "url": "https://www.kpler.com/company/careers",
+      "action": "open",
+      "target": "https://jobs.lever.co/kpler",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/6db50f9556894f5c85c3942dd4eacb88/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:54:10.303662+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.kpler.com/company/careers",
+      "action": "open",
+      "target": "https://jobs.lever.co/kpler"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:54:10.496179+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://jobs.lever.co/kpler",
+      "title": "Kpler",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:54:17.512785+00:00",
+      "stage": "deciding",
+      "message": "Kpler’s official careers page led to this populated jobs collection, which links back to its official website.",
+      "url": "https://jobs.lever.co/kpler",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/6db50f9556894f5c85c3942dd4eacb88/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:54:17.514208+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://jobs.lever.co/kpler"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:54:18.486319+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:53:20.007603+00:00",
+  "started_at": "2026-09-16T22:53:20.007987+00:00",
+  "finished_at": "2026-09-16T22:54:18.486291+00:00",
+  "duration_ms": 58478,
+  "model_usage": {
+    "input_tokens": 72229,
+    "output_tokens": 417,
+    "requests": 3
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "nC3pGJVyB80jwH9TE",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "Yo9DNHDlAu23avdf0",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 3
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

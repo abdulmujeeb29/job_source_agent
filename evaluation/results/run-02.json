@@ -1,0 +1,414 @@
+{
+  "run_id": "fe200934fba74efd8414ed1c9a0a90ae",
+  "input_url": "https://www.linkedin.com/jobs/view/4410261275/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4410261275/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": "Plaid",
+  "company_website": "https://plaid.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/plaid-",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410261275/",
+      "job_id": "4410261275"
+    },
+    {
+      "url": "https://www.linkedin.com/company/plaid-",
+      "field": "website",
+      "value": "https://plaid.com"
+    }
+  ],
+  "careers_url": "https://plaid.com/careers/",
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:38:54.507890+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:39:15.510862+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Plaid.",
+      "url": "https://plaid.com"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:39:35.082394+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/en-gb/",
+      "title": "Plaid: Enabling all companies to build fintech solutions",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:39:42.101743+00:00",
+      "stage": "deciding",
+      "message": "Follow the official site's Careers link to find open roles.",
+      "url": "https://plaid.com/en-gb/",
+      "action": "click",
+      "target": "@e53",
+      "page_kind": "other",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:39:46.153481+00:00",
+      "stage": "recovering",
+      "message": "Could not synchronize agent-browser and Playwright active page.",
+      "url": "https://plaid.com/en-gb/"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:39:47.984809+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:39:54.782574+00:00",
+      "stage": "deciding",
+      "message": "Plaid’s official careers page contains a searchable jobs collection with team and location filters and direct role links.",
+      "url": "https://plaid.com/careers/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:39:54.783259+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://plaid.com/careers/"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:39:54.784698+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://plaid.com/careers/"
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:39:55.162496+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:39:59.313563+00:00",
+      "stage": "deciding",
+      "message": "Inspect the Content Producer role to ground its title and destination after the verification mismatch.",
+      "url": "https://plaid.com/careers/",
+      "action": "click",
+      "target": "@e82",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:40:00.754800+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://plaid.com/careers/",
+      "action": "click",
+      "target": "@e82"
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:40:02.197140+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/openings/brand-marketing/san-francisco-hq/content-producer/",
+      "title": "Content Producer | San Francisco HQ | Plaid",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:40:06.895310+00:00",
+      "stage": "deciding",
+      "message": "Content Producer title and detail URL are confirmed; return to the careers collection for verification.",
+      "url": "https://plaid.com/careers/openings/brand-marketing/san-francisco-hq/content-producer/",
+      "action": "back",
+      "target": "",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:40:09.130368+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://plaid.com/careers/openings/brand-marketing/san-francisco-hq/content-producer/",
+      "action": "back",
+      "target": ""
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:40:09.715505+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 5
+    },
+    {
+      "id": 17,
+      "at": "2026-09-16T22:40:14.451670+00:00",
+      "stage": "deciding",
+      "message": "Plaid’s official careers page displays a searchable jobs collection. The sampled role’s title and URL were confirmed by clicking it and returning.",
+      "url": "https://plaid.com/careers/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-05.png",
+      "step": 5
+    },
+    {
+      "id": 18,
+      "at": "2026-09-16T22:40:14.452162+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://plaid.com/careers/"
+    },
+    {
+      "id": 19,
+      "at": "2026-09-16T22:40:14.453125+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://plaid.com/careers/"
+    },
+    {
+      "id": 20,
+      "at": "2026-09-16T22:40:14.887189+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 6
+    },
+    {
+      "id": 21,
+      "at": "2026-09-16T22:40:25.123651+00:00",
+      "stage": "deciding",
+      "message": "Bring the jobs section into view to resolve the repeated title-grounding failure before retrying verification.",
+      "url": "https://plaid.com/careers/",
+      "action": "click",
+      "target": "@e63",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-06.png",
+      "step": 6
+    },
+    {
+      "id": 22,
+      "at": "2026-09-16T22:40:25.724237+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://plaid.com/careers/",
+      "action": "click",
+      "target": "@e63"
+    },
+    {
+      "id": 23,
+      "at": "2026-09-16T22:40:26.194090+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/#search",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 7
+    },
+    {
+      "id": 24,
+      "at": "2026-09-16T22:40:32.099210+00:00",
+      "stage": "deciding",
+      "message": "The official Plaid careers page shows a searchable collection with rendered role titles and exact job-detail links.",
+      "url": "https://plaid.com/careers/#search",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-07.png",
+      "step": 7
+    },
+    {
+      "id": 25,
+      "at": "2026-09-16T22:40:32.099928+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://plaid.com/careers/#search"
+    },
+    {
+      "id": 26,
+      "at": "2026-09-16T22:40:32.100789+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://plaid.com/careers/#search"
+    },
+    {
+      "id": 27,
+      "at": "2026-09-16T22:40:32.283473+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/#search",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 8
+    },
+    {
+      "id": 28,
+      "at": "2026-09-16T22:40:36.108871+00:00",
+      "stage": "deciding",
+      "message": "Inspect Content Producer to ground its title and destination after repeated link-title verification failures, then return to the collection.",
+      "url": "https://plaid.com/careers/#search",
+      "action": "click",
+      "target": "@e80",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-08.png",
+      "step": 8
+    },
+    {
+      "id": 29,
+      "at": "2026-09-16T22:40:36.653960+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://plaid.com/careers/#search",
+      "action": "click",
+      "target": "@e80"
+    },
+    {
+      "id": 30,
+      "at": "2026-09-16T22:40:36.929822+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/openings/brand-marketing/san-francisco-hq/content-producer/",
+      "title": "Content Producer | San Francisco HQ | Plaid",
+      "step": 9
+    },
+    {
+      "id": 31,
+      "at": "2026-09-16T22:40:41.430390+00:00",
+      "stage": "deciding",
+      "message": "Content Producer title and destination are confirmed; return to the jobs collection for verification.",
+      "url": "https://plaid.com/careers/openings/brand-marketing/san-francisco-hq/content-producer/",
+      "action": "back",
+      "target": "",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-09.png",
+      "step": 9
+    },
+    {
+      "id": 32,
+      "at": "2026-09-16T22:40:44.040914+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://plaid.com/careers/openings/brand-marketing/san-francisco-hq/content-producer/",
+      "action": "back",
+      "target": ""
+    },
+    {
+      "id": 33,
+      "at": "2026-09-16T22:40:45.288937+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 10
+    },
+    {
+      "id": 34,
+      "at": "2026-09-16T22:40:51.300484+00:00",
+      "stage": "deciding",
+      "message": "Plaid’s official careers page contains a searchable jobs collection. The sampled role’s title and URL were confirmed by opening it and returning here.",
+      "url": "https://plaid.com/careers/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-10.png",
+      "step": 10
+    },
+    {
+      "id": 35,
+      "at": "2026-09-16T22:40:51.301738+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://plaid.com/careers/"
+    },
+    {
+      "id": 36,
+      "at": "2026-09-16T22:40:51.302800+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://plaid.com/careers/"
+    },
+    {
+      "id": 37,
+      "at": "2026-09-16T22:40:51.523854+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://plaid.com/careers/",
+      "title": "Plaid Careers: Explore jobs | Plaid",
+      "step": 11
+    },
+    {
+      "id": 38,
+      "at": "2026-09-16T22:40:59.472708+00:00",
+      "stage": "deciding",
+      "message": "Found Plaid’s public jobs collection, but verification repeatedly rejects its generic “See role” link labels even after opening and confirming a role. Unable to complete automated verification.",
+      "url": "https://plaid.com/careers/",
+      "action": "stop",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe200934fba74efd8414ed1c9a0a90ae/artifacts/step-11.png",
+      "step": 11
+    },
+    {
+      "id": 39,
+      "at": "2026-09-16T22:41:00.166935+00:00",
+      "stage": "failed",
+      "message": "Found Plaid’s public jobs collection, but verification repeatedly rejects its generic “See role” link labels even after opening and confirming a role. Unable to complete automated verification."
+    }
+  ],
+  "failure_code": "navigation_exhausted",
+  "failure_reason": "Found Plaid’s public jobs collection, but verification repeatedly rejects its generic “See role” link labels even after opening and confirming a role. Unable to complete automated verification.",
+  "created_at": "2026-09-16T22:38:54.483115+00:00",
+  "started_at": "2026-09-16T22:38:54.483508+00:00",
+  "finished_at": "2026-09-16T22:41:00.166890+00:00",
+  "duration_ms": 125683,
+  "model_usage": {
+    "input_tokens": 251276,
+    "output_tokens": 1816,
+    "requests": 11
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "uPUb3fpldA5yBblwI",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "cCRafJceT9m9fMXsL",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 11
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}
