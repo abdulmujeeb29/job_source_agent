@@ -1,0 +1,267 @@
+{
+  "run_id": "e7428c566e354f63b7ac1fe9539b76d7",
+  "input_url": "https://www.linkedin.com/jobs/view/4464873466/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4464873466/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Corpay",
+  "company_website": "http://www.corpay.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/corpay",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4464873466/",
+      "job_id": "4464873466"
+    },
+    {
+      "url": "https://www.linkedin.com/company/corpay",
+      "field": "website",
+      "value": "http://www.corpay.com"
+    }
+  ],
+  "careers_url": "https://www.corpay.com/en-GB/careers",
+  "jobs_url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Corpay Careers",
+    "collection_evidence": "104 JOBS FOUND",
+    "listings": [
+      {
+        "title": "Client Support",
+        "url": "https://corpay.wd103.myworkdayjobs.com/en-US/Ext_001/job/Madrid-Genova---Cross-Border/Client-Support_R09502"
+      },
+      {
+        "title": "Regulatory Compliance Manager",
+        "url": "https://corpay.wd103.myworkdayjobs.com/en-US/Ext_001/job/Sydney---Cross-Border/Governance--Risk---Compliance-Lead--APAC_R09609"
+      },
+      {
+        "title": "Growth Marketing Manager Shell",
+        "url": "https://corpay.wd103.myworkdayjobs.com/en-US/Ext_001/job/Nrnberg/Growth-Marketing-Manager-Shell_R09221"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Client Support",
+        "url": "https://corpay.wd103.myworkdayjobs.com/en-US/Ext_001/job/Madrid-Genova---Cross-Border/Client-Support_R09502",
+        "frame_url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Regulatory Compliance Manager",
+        "url": "https://corpay.wd103.myworkdayjobs.com/en-US/Ext_001/job/Sydney---Cross-Border/Governance--Risk---Compliance-Lead--APAC_R09609",
+        "frame_url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Growth Marketing Manager Shell",
+        "url": "https://corpay.wd103.myworkdayjobs.com/en-US/Ext_001/job/Nrnberg/Growth-Marketing-Manager-Shell_R09221",
+        "frame_url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://corpay.wd103.myworkdayjobs.com/en-US/Ext_001/job/Madrid-Genova---Cross-Border/Client-Support_R09502",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:46:47.913791+00:00",
+    "page_url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+    "screenshot": "/api/runs/e7428c566e354f63b7ac1fe9539b76d7/artifacts/step-05.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:45:36.718767+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:45:55.185905+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Corpay.",
+      "url": "http://www.corpay.com"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:46:02.651444+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.corpay.com/",
+      "title": "The smarter corporate payments company | Corpay",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:46:08.285834+00:00",
+      "stage": "deciding",
+      "message": "Follow the official Careers link to find Corpay’s public job collection.",
+      "url": "https://www.corpay.com/",
+      "action": "click",
+      "target": "@e47",
+      "page_kind": "other",
+      "screenshot": "/api/runs/e7428c566e354f63b7ac1fe9539b76d7/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:46:08.338681+00:00",
+      "stage": "recovering",
+      "message": "Element '@e47' is covered by <div#CybotCookiebotDialogBodyContentText> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).",
+      "url": "https://www.corpay.com/"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:46:09.198884+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.corpay.com/en-GB",
+      "title": "The Corporate Payments Company | Corpay | en-GB",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:46:12.376423+00:00",
+      "stage": "deciding",
+      "message": "Open the observed official Careers URL directly to bypass the cookie overlay.",
+      "url": "https://www.corpay.com/en-GB",
+      "action": "open",
+      "target": "https://www.corpay.com/en-GB/careers",
+      "page_kind": "other",
+      "screenshot": "/api/runs/e7428c566e354f63b7ac1fe9539b76d7/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:46:24.969740+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.corpay.com/en-GB",
+      "action": "open",
+      "target": "https://www.corpay.com/en-GB/careers"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:46:25.223025+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.corpay.com/en-GB/careers",
+      "title": "Careers | Corpay | en-GB",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:46:30.414324+00:00",
+      "stage": "deciding",
+      "message": "Follow the official Europe and Australasia jobs link to inspect Corpay’s openings.",
+      "url": "https://www.corpay.com/en-GB/careers",
+      "action": "open",
+      "target": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/e7428c566e354f63b7ac1fe9539b76d7/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:46:36.396523+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.corpay.com/en-GB/careers",
+      "action": "open",
+      "target": "https://corpay.wd103.myworkdayjobs.com/Ext_001"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:46:36.487854+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+      "title": "",
+      "step": 4
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:46:39.787617+00:00",
+      "stage": "deciding",
+      "message": "The official careers link opened a blank Workday page; allow time for the job board to render.",
+      "url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+      "action": "wait",
+      "target": "",
+      "page_kind": "other",
+      "screenshot": "/api/runs/e7428c566e354f63b7ac1fe9539b76d7/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:46:41.190347+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:46:41.268088+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+      "title": "Search for Jobs",
+      "step": 5
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:46:46.095582+00:00",
+      "stage": "deciding",
+      "message": "The board linked from Corpay’s official careers page displays 104 jobs, Corpay branding, and individual role links.",
+      "url": "https://corpay.wd103.myworkdayjobs.com/Ext_001",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/e7428c566e354f63b7ac1fe9539b76d7/artifacts/step-05.png",
+      "step": 5
+    },
+    {
+      "id": 17,
+      "at": "2026-09-16T22:46:46.096084+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://corpay.wd103.myworkdayjobs.com/Ext_001"
+    },
+    {
+      "id": 18,
+      "at": "2026-09-16T22:46:48.255895+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:45:36.704153+00:00",
+  "started_at": "2026-09-16T22:45:36.704388+00:00",
+  "finished_at": "2026-09-16T22:46:48.255864+00:00",
+  "duration_ms": 71551,
+  "model_usage": {
+    "input_tokens": 33939,
+    "output_tokens": 554,
+    "requests": 5
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "pmbRcuxjZxwpI9rSO",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "FOGmeBAo4UislNeTj",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 5
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file: .env
+    environment:
+      DATA_DIR: /app/data
+      CHROMIUM_EXECUTABLE: /usr/bin/chromium
+      CHROMIUM_NO_SANDBOX: "true"
+    volumes:
+      - results:/app/data
+    shm_size: 512mb
+    restart: unless-stopped
+volumes:
+  results:

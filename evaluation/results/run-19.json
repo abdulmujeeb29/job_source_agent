@@ -1,0 +1,244 @@
+{
+  "run_id": "4a89b3eb34fd4b1da49b4a81d8d7eb4b",
+  "input_url": "https://www.linkedin.com/jobs/view/4462819834/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4462819834/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Flix",
+  "company_website": "https://global.flixbus.com/privacy-policy-social-media-1?vt=85",
+  "company_linkedin_url": "https://www.linkedin.com/company/flixbus-flixtrain",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4462819834/",
+      "job_id": "4462819834"
+    },
+    {
+      "url": "https://www.linkedin.com/company/flixbus-flixtrain",
+      "field": "website",
+      "value": "https://global.flixbus.com/privacy-policy-social-media-1?vt=85"
+    }
+  ],
+  "careers_url": "https://flix.careers/",
+  "jobs_url": "https://flix.careers/jobs/",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Find your seat at Flix",
+    "collection_evidence": "159 jobs in all locations in all departments wait for you",
+    "listings": [
+      {
+        "title": "Agente de venta de boletos",
+        "url": "https://flix.careers/job/?jobid=8810761002"
+      },
+      {
+        "title": "Agente de ventas de pasaje",
+        "url": "https://flix.careers/job/?jobid=8810480002"
+      },
+      {
+        "title": "Agent Shops and Stations (Leeds, On-site)",
+        "url": "https://flix.careers/job/?jobid=8785826002"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Agente de venta de boletos\nSantiago",
+        "url": "https://flix.careers/job/?jobid=8810761002",
+        "frame_url": "https://flix.careers/jobs/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Agente de ventas de pasaje\nSan Fernando",
+        "url": "https://flix.careers/job/?jobid=8810480002",
+        "frame_url": "https://flix.careers/jobs/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Agent Shops and Stations (Leeds, On-site)\nLeeds",
+        "url": "https://flix.careers/job/?jobid=8785826002",
+        "frame_url": "https://flix.careers/jobs/",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://flix.careers/job/?jobid=8810761002",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:58:28.810478+00:00",
+    "page_url": "https://flix.careers/jobs/",
+    "screenshot": "/api/runs/4a89b3eb34fd4b1da49b4a81d8d7eb4b/artifacts/step-04.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:57:17.787041+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:57:42.739866+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Flix.",
+      "url": "https://global.flixbus.com/privacy-policy-social-media-1?vt=85"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:57:50.848866+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://global.flixbus.com/privacy-policy-social-media-1?vt=85",
+      "title": "Data Privacy → FlixBus",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:58:05.500904+00:00",
+      "stage": "deciding",
+      "message": "Follow the official site's Jobs link to Flix careers.",
+      "url": "https://global.flixbus.com/privacy-policy-social-media-1?vt=85",
+      "action": "click",
+      "target": "@e47",
+      "page_kind": "other",
+      "screenshot": "/api/runs/4a89b3eb34fd4b1da49b4a81d8d7eb4b/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:58:07.582628+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://global.flixbus.com/privacy-policy-social-media-1?vt=85",
+      "action": "click",
+      "target": "@e47"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:58:10.942630+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://flix.careers/",
+      "title": "Flix Career - Home",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:58:17.106846+00:00",
+      "stage": "deciding",
+      "message": "Follow Jobs from Flix’s careers homepage to the full jobs collection.",
+      "url": "https://flix.careers/",
+      "action": "click",
+      "target": "@e10",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/4a89b3eb34fd4b1da49b4a81d8d7eb4b/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:58:18.638589+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://flix.careers/",
+      "action": "click",
+      "target": "@e10"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:58:20.481389+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://flix.careers/jobs/",
+      "title": "Jobs - Flix Career",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:58:24.175750+00:00",
+      "stage": "deciding",
+      "message": "Reached Flix’s jobs collection from its official website; it shows 159 openings with direct role links.",
+      "url": "https://flix.careers/jobs/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/4a89b3eb34fd4b1da49b4a81d8d7eb4b/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:58:24.176391+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://flix.careers/jobs/"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:58:24.176920+00:00",
+      "stage": "recovering",
+      "message": "Verification excerpts were not found in rendered page text.",
+      "url": "https://flix.careers/jobs/"
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:58:24.230945+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://flix.careers/jobs/",
+      "title": "Jobs - Flix Career",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:58:27.714414+00:00",
+      "stage": "deciding",
+      "message": "Flix’s official-site navigation leads to this collection with 159 jobs and direct role links; excerpts below exactly match rendered text.",
+      "url": "https://flix.careers/jobs/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/4a89b3eb34fd4b1da49b4a81d8d7eb4b/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:58:27.715052+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://flix.careers/jobs/"
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:58:29.001434+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:57:17.773978+00:00",
+  "started_at": "2026-09-16T22:57:17.774306+00:00",
+  "finished_at": "2026-09-16T22:58:29.001407+00:00",
+  "duration_ms": 71227,
+  "model_usage": {
+    "input_tokens": 25410,
+    "output_tokens": 596,
+    "requests": 4
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "xJGKvBXW0zbZ2SWTZ",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "LDKBZrRpEfrmY44lg",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 4
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

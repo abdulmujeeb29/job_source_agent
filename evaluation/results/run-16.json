@@ -1,0 +1,259 @@
+{
+  "run_id": "ebe5481c48d2444894fce54fb7a5b57b",
+  "input_url": "https://www.linkedin.com/jobs/view/4466364866/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4466364866/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "Worldpay",
+  "company_website": "http://www.worldpay.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/worldpay",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4466364866/",
+      "job_id": "4466364866"
+    },
+    {
+      "url": "https://www.linkedin.com/company/worldpay",
+      "field": "website",
+      "value": "http://www.worldpay.com"
+    }
+  ],
+  "careers_url": "https://jobs.globalpayments.com/",
+  "jobs_url": "https://jobs.globalpayments.com/jobs",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Worldpay Privacy",
+    "collection_evidence": "Showing 10 of 803 jobs",
+    "listings": [
+      {
+        "title": "Senior Business Development Manager Japan",
+        "url": "https://jobs.globalpayments.com/jobs/JR0608875-1"
+      },
+      {
+        "title": "Regional Account Executive (Spokane, WA)",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609270-1"
+      },
+      {
+        "title": "Sales Executive Merchant Regional - (Cleveland, OH)",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609310-1"
+      },
+      {
+        "title": "DevOps Engineer - AWS & Terraform",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609216-1"
+      },
+      {
+        "title": "Senior ML Software Engineer",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609524-1"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Senior Business Development Manager Japan\n\nCommercial and Sales\n\nJR0608875\n\nTokyo, Tokyo, Japan\n\nApply",
+        "url": "https://jobs.globalpayments.com/jobs/JR0608875-1",
+        "frame_url": "https://jobs.globalpayments.com/jobs",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Regional Account Executive (Spokane, WA)\n\nCommercial and Sales\n\nJR0609270\n\nSpokane, Washington, United States\n\nApply",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609270-1",
+        "frame_url": "https://jobs.globalpayments.com/jobs",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Sales Executive Merchant Regional - (Cleveland, OH)\n\nCommercial and Sales\n\nJR0609310\n\nVirtual, Ohio, United States\n\nApply",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609310-1",
+        "frame_url": "https://jobs.globalpayments.com/jobs",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "DevOps Engineer - AWS & Terraform\n\nProduct and Technology Development\n\nJR0609216\n\nLondon, United Kingdom\n\nApply",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609216-1",
+        "frame_url": "https://jobs.globalpayments.com/jobs",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior ML Software Engineer\n\nProduct and Technology Development\n\nJR0609524\n\nAtlanta, Georgia, United States\n\nApply",
+        "url": "https://jobs.globalpayments.com/jobs/JR0609524-1",
+        "frame_url": "https://jobs.globalpayments.com/jobs",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://jobs.globalpayments.com/jobs/JR0608875-1",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:55:56.948417+00:00",
+    "page_url": "https://jobs.globalpayments.com/jobs",
+    "screenshot": "/api/runs/ebe5481c48d2444894fce54fb7a5b57b/artifacts/step-04.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:55:01.867677+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:55:18.348407+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Worldpay.",
+      "url": "http://www.worldpay.com"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:55:26.062482+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.worldpay.com/en-GB",
+      "title": "Worldpay: Unleash Your Payments Potential",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:55:31.578973+00:00",
+      "stage": "deciding",
+      "message": "Follow the official Careers link to locate Worldpay’s public job collection.",
+      "url": "https://www.worldpay.com/en-GB",
+      "action": "click",
+      "target": "@e12",
+      "page_kind": "other",
+      "screenshot": "/api/runs/ebe5481c48d2444894fce54fb7a5b57b/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:55:36.380435+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.worldpay.com/en-GB",
+      "action": "click",
+      "target": "@e12"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:55:37.778281+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://jobs.globalpayments.com/",
+      "title": "Global Payments Careers | Homepage",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:55:42.114293+00:00",
+      "stage": "deciding",
+      "message": "Follow Find your career to the jobs collection; Worldpay’s official Careers link led to this site.",
+      "url": "https://jobs.globalpayments.com/",
+      "action": "click",
+      "target": "@e25",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/ebe5481c48d2444894fce54fb7a5b57b/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:55:42.593788+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://jobs.globalpayments.com/",
+      "action": "click",
+      "target": "@e25"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:55:43.565991+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://jobs.globalpayments.com/",
+      "title": "Global Payments Careers | Homepage",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:55:46.939728+00:00",
+      "stage": "deciding",
+      "message": "Open the jobs collection directly from the observed Find your career link; Worldpay’s official Careers link led to this site.",
+      "url": "https://jobs.globalpayments.com/",
+      "action": "open",
+      "target": "https://jobs.globalpayments.com/jobs",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/ebe5481c48d2444894fce54fb7a5b57b/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:55:48.949852+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://jobs.globalpayments.com/",
+      "action": "open",
+      "target": "https://jobs.globalpayments.com/jobs"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:55:49.536013+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://jobs.globalpayments.com/jobs",
+      "title": "Global Payments Careers | Job Opportunities",
+      "step": 4
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:55:53.798721+00:00",
+      "stage": "deciding",
+      "message": "Worldpay’s official Careers link led to this Global Payments careers site. The collection shows 803 jobs and includes a Worldpay privacy link.",
+      "url": "https://jobs.globalpayments.com/jobs",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/ebe5481c48d2444894fce54fb7a5b57b/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:55:53.799922+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://jobs.globalpayments.com/jobs"
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:55:57.226723+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:55:01.854672+00:00",
+  "started_at": "2026-09-16T22:55:01.854905+00:00",
+  "finished_at": "2026-09-16T22:55:57.226690+00:00",
+  "duration_ms": 55372,
+  "model_usage": {
+    "input_tokens": 34673,
+    "output_tokens": 454,
+    "requests": 4
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "Ioc3SsAWFUL4dft64",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "duIHr2iRWYFnCYZ6b",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 4
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

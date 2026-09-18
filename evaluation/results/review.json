@@ -1,0 +1,133 @@
+{
+  "1": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:49.614377+00:00",
+    "notes": "Reviewed U.S. Bank branded search screenshot, 1400 results, observed role links and successful sampled detail check.",
+    "screenshot": "screenshots/01.png"
+  },
+  "2": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — failure trace review",
+    "at": "2026-09-16T22:48:00Z",
+    "notes": "Failed verification because generic See role anchors did not contain role titles. Jobs collection was found, but no successful final result returned."
+  },
+  "3": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — failure trace review",
+    "at": "2026-09-16T22:48:00Z",
+    "notes": "Company-name excerpt could not be grounded on the recruitment board. Agent returned explicit failure."
+  },
+  "4": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:49.772496+00:00",
+    "notes": "Reviewed Redcare Pharmacy screenshot showing 226 jobs and Digital Analytics Manager; grounded links and sampled HTTP 200 detail check.",
+    "screenshot": "screenshots/04.png"
+  },
+  "5": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — failure trace review",
+    "at": "2026-09-16T22:48:00Z",
+    "notes": "Navigation cycle guard stopped repeated actions without progress. No jobs URL returned."
+  },
+  "6": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:49.926526+00:00",
+    "notes": "Reviewed Corpay branded Workday board screenshot, 104 jobs, Client Support and Regulatory Compliance Manager; sampled detail HTTP 200.",
+    "screenshot": "screenshots/06.png"
+  },
+  "7": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — failure trace review",
+    "at": "2026-09-16T22:48:00Z",
+    "notes": "Navigation cycle guard stopped repeated actions without progress. No jobs URL returned."
+  },
+  "8": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:50.081072+00:00",
+    "notes": "Reviewed DISH branded Personio board, German Offene Stellen heading and visible Senior Data Analyst/Engineer roles; sampled detail HTTP 200.",
+    "screenshot": "screenshots/08.png"
+  },
+  "9": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:50.253713+00:00",
+    "notes": "Company website navigation failed with ERR_HTTP_RESPONSE_CODE_FAILURE; no verified result returned."
+  },
+  "10": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:50.479766+00:00",
+    "notes": "Company enrichment returned no official website; extraction failure retained in denominator."
+  },
+  "11": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:50.677009+00:00",
+    "notes": "Company website navigation failed with ERR_TUNNEL_CONNECTION_FAILED; no verified result returned."
+  },
+  "12": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:50.858975+00:00",
+    "notes": "Reviewed USAA-branded search page and visible list behind consent dialog; 210 jobs, observed role links and sampled HTTP 200 detail check.",
+    "screenshot": "screenshots/12.png"
+  },
+  "13": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:51.022959+00:00",
+    "notes": "Cycle guard stopped repeated actions without progress; no final jobs URL."
+  },
+  "14": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T22:55:51.241297+00:00",
+    "notes": "Reviewed Kpler-branded Lever board screenshot, multiple visible analyst roles and matching observed links; sampled detail HTTP 200.",
+    "screenshot": "screenshots/14.png"
+  },
+  "15": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T23:02:27.939340+00:00",
+    "notes": "Independent browser check after dismissing region modal confirmed Analytics Engineer II and many other roles on Affirm careers; observed Greenhouse links and sampled detail HTTP 200.",
+    "screenshot": "screenshots/15.png"
+  },
+  "16": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T23:02:28.120824+00:00",
+    "notes": "Worldpay official Careers link led directly to Global Payments careers. Reviewed this navigation chain and branded jobs screenshot with 803 roles; sampled detail HTTP 200. Parent-company shared board accepted as official destination.",
+    "screenshot": "screenshots/16.png"
+  },
+  "17": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T23:02:28.293369+00:00",
+    "notes": "Independent browser check confirmed Careers at Cint and Jobs at Cint with Staff Software Engineer and multiple other roles; official SmartRecruiters destination and sampled detail HTTP 200.",
+    "screenshot": "screenshots/17.png"
+  },
+  "18": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T23:02:28.472424+00:00",
+    "notes": "Reviewed Cloudflare-branded page screenshot with 360 open roles and visible engineering listings; observed Greenhouse links and sampled detail HTTP 200.",
+    "screenshot": "screenshots/18.png"
+  },
+  "19": {
+    "accepted": true,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T23:02:28.643858+00:00",
+    "notes": "Reviewed Flix-branded jobs screenshot and independently inspected the live role list; Spanish role titles and observed links match, sampled detail HTTP 200.",
+    "screenshot": "screenshots/19.png"
+  },
+  "20": {
+    "accepted": false,
+    "reviewer": "OpenCode assistant — evidence review",
+    "at": "2026-09-16T23:02:28.816489+00:00",
+    "notes": "Company enrichment had no official website. Failure retained in denominator."
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Source — Find the source, not another repost.</title>
+  <link rel="stylesheet" href="/static/style.css?v=__ASSET_VERSION__">
+  <script src="/static/app.js?v=__ASSET_VERSION__" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="/">↗ <span>jobsource</span></a><span class="tag">JOBNOVA · PART 02</span></header>
+  <main>
+    <section class="intro"><div class="eyebrow"><span class="dot"></span> A BROWSER AGENT WITH RECEIPTS</div>
+      <h1>Find the source.<br><span>Follow the opportunity.</span></h1>
+      <p>From a LinkedIn posting to the company's real jobs board.<br>Watch the agent navigate. Inspect the evidence.</p>
+    </section>
+    <section class="search-card">
+      <form id="search"><label for="url">LINKEDIN JOB URL</label><div class="input-row">
+        <input id="url" type="url" placeholder="https://www.linkedin.com/jobs/view/…" required autocomplete="off" aria-describedby="hint">
+        <button id="submit" type="submit">Find jobs page <span>↗</span></button></div>
+        <p id="hint">Company identity → website → careers → verified listings</p>
+      </form><p id="error" role="alert" hidden></p>
+    </section>
+    <section id="run" hidden aria-live="polite">
+      <div class="section-heading"><h2>Your discovery</h2><div><span id="status" class="badge"></span> <button id="cancel" class="quiet">Cancel</button></div></div>
+      <div id="result" class="result-card"></div>
+      <div class="section-heading"><h2>Navigation evidence</h2><a id="download" target="_blank" rel="noopener">View result JSON ↗</a></div>
+      <ol id="timeline"></ol>
+    </section>
+    <section class="principles"><div><b>01 / Discover</b><p>Extract the company behind the posting.</p></div><div><b>02 / Navigate</b><p>Astra guides a real browser through the website.</p></div><div><b>03 / Verify</b><p>Check actual listings and a sampled job link.</p></div></section>
+    <p class="footnote">Built with Azure Astra · Apify · agent-browser · Playwright<br>Evidence-backed results. Explicit failures. No company-to-careers mapping.</p>
+  </main>
+</body>
+</html>

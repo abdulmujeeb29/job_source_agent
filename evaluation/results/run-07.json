@@ -1,0 +1,517 @@
+{
+  "run_id": "489f8cc3e14e4d8681bb370cdf7a5a75",
+  "input_url": "https://www.linkedin.com/jobs/view/4438098210/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4438098210/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": "Plum",
+  "company_website": "https://withplum.com/",
+  "company_linkedin_url": "https://www.linkedin.com/company/plum-fintech",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4438098210/",
+      "job_id": "4438098210"
+    },
+    {
+      "url": "https://www.linkedin.com/company/plum-fintech",
+      "field": "website",
+      "value": "https://withplum.com/"
+    }
+  ],
+  "careers_url": "https://apply.workable.com/withplum/",
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:46:48.277267+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:47:06.332439+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Plum.",
+      "url": "https://withplum.com/"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:47:09.525396+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://withplum.com/",
+      "title": "Money for life | Plum",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:47:13.924658+00:00",
+      "stage": "deciding",
+      "message": "Follow the official website’s Career link to Plum’s public jobs board.",
+      "url": "https://withplum.com/",
+      "action": "click",
+      "target": "@e67",
+      "page_kind": "other",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:47:15.936497+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://withplum.com/",
+      "action": "click",
+      "target": "@e67"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:47:17.684425+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:47:20.517203+00:00",
+      "stage": "deciding",
+      "message": "The official Career link reached Plum’s Workable board, but its content has not rendered. Wait for the openings to load.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "other",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:47:21.917997+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:47:22.112609+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:47:26.384982+00:00",
+      "stage": "deciding",
+      "message": "Plum’s official Career link leads to this populated jobs collection, which links back to withplum.com and provides individual role URLs.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:47:26.385650+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://apply.workable.com/withplum/"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:47:26.386354+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://apply.workable.com/withplum/"
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:47:26.457117+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:47:29.906335+00:00",
+      "stage": "deciding",
+      "message": "Inspect a role to establish its title and destination after the previous link-title verification failed; then return to the collection.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "click",
+      "target": "@e34",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:47:29.934785+00:00",
+      "stage": "recovering",
+      "message": "Element '@e34' is covered by <div.styles--1TOnJ inside div#app> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).",
+      "url": "https://apply.workable.com/withplum/"
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:47:30.003975+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 5
+    },
+    {
+      "id": 17,
+      "at": "2026-09-16T22:47:33.421463+00:00",
+      "stage": "deciding",
+      "message": "Dismiss the cookie banner so a role can be inspected to resolve the previous title-link verification failure.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "click",
+      "target": "@e16",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-05.png",
+      "step": 5
+    },
+    {
+      "id": 18,
+      "at": "2026-09-16T22:47:33.880684+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/",
+      "action": "click",
+      "target": "@e16"
+    },
+    {
+      "id": 19,
+      "at": "2026-09-16T22:47:33.957307+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 6
+    },
+    {
+      "id": 20,
+      "at": "2026-09-16T22:47:37.032086+00:00",
+      "stage": "deciding",
+      "message": "Inspect the role’s title and destination now that the cookie banner is dismissed, then return to the collection for verification.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "click",
+      "target": "@e34",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-06.png",
+      "step": 6
+    },
+    {
+      "id": 21,
+      "at": "2026-09-16T22:47:37.483667+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/",
+      "action": "click",
+      "target": "@e34"
+    },
+    {
+      "id": 22,
+      "at": "2026-09-16T22:47:38.048716+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/j/2159A84BF0/",
+      "title": "Senior Backend Engineer - Plum Fintech",
+      "step": 7
+    },
+    {
+      "id": 23,
+      "at": "2026-09-16T22:47:40.908886+00:00",
+      "stage": "deciding",
+      "message": "The role destination is established; return to the jobs collection to inspect its rendered evidence and verify there.",
+      "url": "https://apply.workable.com/withplum/j/2159A84BF0/",
+      "action": "back",
+      "target": "",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-07.png",
+      "step": 7
+    },
+    {
+      "id": 24,
+      "at": "2026-09-16T22:47:41.715235+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/j/2159A84BF0/",
+      "action": "back",
+      "target": ""
+    },
+    {
+      "id": 25,
+      "at": "2026-09-16T22:47:41.792495+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 8
+    },
+    {
+      "id": 26,
+      "at": "2026-09-16T22:47:44.553631+00:00",
+      "stage": "deciding",
+      "message": "The collection is temporarily blank after returning from the role. Wait for it to render before checking collection evidence.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "other",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-08.png",
+      "step": 8
+    },
+    {
+      "id": 27,
+      "at": "2026-09-16T22:47:45.956969+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 28,
+      "at": "2026-09-16T22:47:46.159708+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 9
+    },
+    {
+      "id": 29,
+      "at": "2026-09-16T22:47:50.079747+00:00",
+      "stage": "deciding",
+      "message": "Plum’s jobs collection is visible, links to its official website, and contains multiple openings with observed job-detail URLs.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-09.png",
+      "step": 9
+    },
+    {
+      "id": 30,
+      "at": "2026-09-16T22:47:50.081020+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://apply.workable.com/withplum/"
+    },
+    {
+      "id": 31,
+      "at": "2026-09-16T22:47:50.081945+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://apply.workable.com/withplum/"
+    },
+    {
+      "id": 32,
+      "at": "2026-09-16T22:47:50.150455+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 10
+    },
+    {
+      "id": 33,
+      "at": "2026-09-16T22:47:55.978039+00:00",
+      "stage": "deciding",
+      "message": "The collection shows Plum openings and links to its official website. The sampled Senior Backend Engineer destination was also observed during navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-10.png",
+      "step": 10
+    },
+    {
+      "id": 34,
+      "at": "2026-09-16T22:47:55.979189+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://apply.workable.com/withplum/"
+    },
+    {
+      "id": 35,
+      "at": "2026-09-16T22:47:55.979846+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://apply.workable.com/withplum/"
+    },
+    {
+      "id": 36,
+      "at": "2026-09-16T22:47:56.062882+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 11
+    },
+    {
+      "id": 37,
+      "at": "2026-09-16T22:48:00.109004+00:00",
+      "stage": "deciding",
+      "message": "Inspect a role destination to ground its title and URL after verification rejected the collection’s blank anchor text.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "click",
+      "target": "@e30",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-11.png",
+      "step": 11
+    },
+    {
+      "id": 38,
+      "at": "2026-09-16T22:48:00.565063+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/",
+      "action": "click",
+      "target": "@e30"
+    },
+    {
+      "id": 39,
+      "at": "2026-09-16T22:48:00.654915+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/j/1271087153/",
+      "title": "Talent Acquisition Specialist - Plum Fintech",
+      "step": 12
+    },
+    {
+      "id": 40,
+      "at": "2026-09-16T22:48:03.359826+00:00",
+      "stage": "deciding",
+      "message": "Allow the sampled role to render so its title can be grounded before returning to the jobs collection.",
+      "url": "https://apply.workable.com/withplum/j/1271087153/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-12.png",
+      "step": 12
+    },
+    {
+      "id": 41,
+      "at": "2026-09-16T22:48:04.762923+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/j/1271087153/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 42,
+      "at": "2026-09-16T22:48:04.809194+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/j/1271087153/",
+      "title": "Talent Acquisition Specialist - Plum Fintech",
+      "step": 13
+    },
+    {
+      "id": 43,
+      "at": "2026-09-16T22:48:08.124098+00:00",
+      "stage": "deciding",
+      "message": "The sampled role title and URL are now grounded; return to the jobs collection for verification.",
+      "url": "https://apply.workable.com/withplum/j/1271087153/",
+      "action": "click",
+      "target": "@e2",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-13.png",
+      "step": 13
+    },
+    {
+      "id": 44,
+      "at": "2026-09-16T22:48:08.574315+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/j/1271087153/",
+      "action": "click",
+      "target": "@e2"
+    },
+    {
+      "id": 45,
+      "at": "2026-09-16T22:48:08.645984+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 14
+    },
+    {
+      "id": 46,
+      "at": "2026-09-16T22:48:11.251074+00:00",
+      "stage": "deciding",
+      "message": "Allow the jobs collection to render after returning from the sampled role before verifying its visible evidence.",
+      "url": "https://apply.workable.com/withplum/",
+      "action": "wait",
+      "target": "",
+      "page_kind": "other",
+      "screenshot": "/api/runs/489f8cc3e14e4d8681bb370cdf7a5a75/artifacts/step-14.png",
+      "step": 14
+    },
+    {
+      "id": 47,
+      "at": "2026-09-16T22:48:12.654287+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://apply.workable.com/withplum/",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 48,
+      "at": "2026-09-16T22:48:12.867453+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://apply.workable.com/withplum/",
+      "title": "Plum Fintech - Current Openings",
+      "step": 15
+    },
+    {
+      "id": 49,
+      "at": "2026-09-16T22:48:15.887262+00:00",
+      "stage": "failed",
+      "message": "The agent repeated the same action without page progress."
+    }
+  ],
+  "failure_code": "navigation_exhausted",
+  "failure_reason": "The agent repeated the same action without page progress.",
+  "created_at": "2026-09-16T22:46:48.263722+00:00",
+  "started_at": "2026-09-16T22:46:48.263934+00:00",
+  "finished_at": "2026-09-16T22:48:15.887227+00:00",
+  "duration_ms": 87623,
+  "model_usage": {
+    "input_tokens": 59436,
+    "output_tokens": 1649,
+    "requests": 15
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "k3sGSRZvqgafcp3M7",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "Fb5YmVnuOQw6E8Itx",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 15
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

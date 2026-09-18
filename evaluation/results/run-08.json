@@ -1,0 +1,247 @@
+{
+  "run_id": "4bbe0a7b963a4a77a27358d4c4da0095",
+  "input_url": "https://www.linkedin.com/jobs/view/4459681392/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4459681392/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "DISH Digital Solutions",
+  "company_website": "https://dish.co",
+  "company_linkedin_url": "https://www.linkedin.com/company/dishdigitalsolutions",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4459681392/",
+      "job_id": "4459681392"
+    },
+    {
+      "url": "https://www.linkedin.com/company/dishdigitalsolutions",
+      "field": "website",
+      "value": "https://dish.co"
+    }
+  ],
+  "careers_url": "https://www.dish.co/XX/en/dish-career/",
+  "jobs_url": "https://dishdigital.jobs.personio.de/",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Unsolicited Application: Join DISH!",
+    "collection_evidence": "Offene Stellen\nAbteilung\nData Insights\n- 2 Positionen",
+    "listings": [
+      {
+        "title": "Senior Data Analyst (m/f/d)",
+        "url": "https://dishdigital.jobs.personio.de/job/2533479"
+      },
+      {
+        "title": "Senior Data Engineer (m/f/d)",
+        "url": "https://dishdigital.jobs.personio.de/job/2747971"
+      },
+      {
+        "title": "POS Implementierungsmanager (m/w/d)",
+        "url": "https://dishdigital.jobs.personio.de/job/2702076"
+      },
+      {
+        "title": "People & Culture Advisor (m/f/d)",
+        "url": "https://dishdigital.jobs.personio.de/job/2761933"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Senior Data Analyst (m/f/d)\nDüsseldorf\nFull-time\nPermanent employee",
+        "url": "https://dishdigital.jobs.personio.de/job/2533479",
+        "frame_url": "https://dishdigital.jobs.personio.de/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Data Engineer (m/f/d)\nDüsseldorf\nFull-time\nPermanent employee",
+        "url": "https://dishdigital.jobs.personio.de/job/2747971",
+        "frame_url": "https://dishdigital.jobs.personio.de/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "POS Implementierungsmanager (m/w/d)\nBremen\nVollzeit\nFestanstellung",
+        "url": "https://dishdigital.jobs.personio.de/job/2702076",
+        "frame_url": "https://dishdigital.jobs.personio.de/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "People & Culture Advisor (m/f/d)\nDüsseldorf\nFull-time\nPermanent employee",
+        "url": "https://dishdigital.jobs.personio.de/job/2761933",
+        "frame_url": "https://dishdigital.jobs.personio.de/",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://dishdigital.jobs.personio.de/job/2533479",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:49:06.004750+00:00",
+    "page_url": "https://dishdigital.jobs.personio.de/",
+    "screenshot": "/api/runs/4bbe0a7b963a4a77a27358d4c4da0095/artifacts/step-04.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:48:15.908691+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:48:32.467239+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for DISH Digital Solutions.",
+      "url": "https://dish.co"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:48:39.120860+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.dish.co/XX/en/",
+      "title": "International | Digital solutions for your restaurant | DISH Digital…",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:48:42.612557+00:00",
+      "stage": "deciding",
+      "message": "Follow the official DISH Career link to find open roles.",
+      "url": "https://www.dish.co/XX/en/",
+      "action": "click",
+      "target": "@e36",
+      "page_kind": "other",
+      "screenshot": "/api/runs/4bbe0a7b963a4a77a27358d4c4da0095/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:48:42.641905+00:00",
+      "stage": "recovering",
+      "message": "Element '@e36' is covered by <div#usercentrics-root> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).",
+      "url": "https://www.dish.co/XX/en/"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:48:42.757841+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.dish.co/XX/en/",
+      "title": "International | Digital solutions for your restaurant | DISH Digital…",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:48:46.888418+00:00",
+      "stage": "deciding",
+      "message": "Open the observed official career link directly to bypass the cookie overlay.",
+      "url": "https://www.dish.co/XX/en/",
+      "action": "open",
+      "target": "https://www.dish.co/XX/en/dish-career/",
+      "page_kind": "other",
+      "screenshot": "/api/runs/4bbe0a7b963a4a77a27358d4c4da0095/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:48:49.896445+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.dish.co/XX/en/",
+      "action": "open",
+      "target": "https://www.dish.co/XX/en/dish-career/"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:48:50.074237+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.dish.co/XX/en/dish-career/",
+      "title": "International | DISH Career",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:48:53.256917+00:00",
+      "stage": "deciding",
+      "message": "Follow the official careers page’s available-positions link to inspect the jobs collection.",
+      "url": "https://www.dish.co/XX/en/dish-career/",
+      "action": "open",
+      "target": "https://dishdigital.jobs.personio.de/",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/4bbe0a7b963a4a77a27358d4c4da0095/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:49:00.062143+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.dish.co/XX/en/dish-career/",
+      "action": "open",
+      "target": "https://dishdigital.jobs.personio.de/"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:49:00.156611+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://dishdigital.jobs.personio.de/",
+      "title": "Jobs bei DISH Digital Solutions GmbH",
+      "step": 4
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:49:05.287369+00:00",
+      "stage": "deciding",
+      "message": "The official DISH careers page led to this jobs collection, which lists four specific openings with job-detail links.",
+      "url": "https://dishdigital.jobs.personio.de/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/4bbe0a7b963a4a77a27358d4c4da0095/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:49:05.287936+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://dishdigital.jobs.personio.de/"
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:49:06.270103+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:48:15.895277+00:00",
+  "started_at": "2026-09-16T22:48:15.895547+00:00",
+  "finished_at": "2026-09-16T22:49:06.270063+00:00",
+  "duration_ms": 50374,
+  "model_usage": {
+    "input_tokens": 18855,
+    "output_tokens": 439,
+    "requests": 4
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "OLjlyvX2XdIheRSR1",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "WJstvoBeoA8P5tHdf",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 4
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

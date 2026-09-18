@@ -1,0 +1,29 @@
+[project]
+name = "jobsource-agent"
+version = "0.3.0"
+description = "Evidence-driven LinkedIn to company jobs discovery"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "httpx>=0.28,<1",
+  "openai>=2,<3",
+  "pydantic-settings>=2.8,<3",
+  "playwright>=1.58,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.11,<1"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["browser: launches real Chromium", "live: uses paid external APIs"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]

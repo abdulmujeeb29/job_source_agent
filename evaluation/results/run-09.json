@@ -1,0 +1,73 @@
+{
+  "run_id": "c8de882f10964ec5a721ab2eb8626fb8",
+  "input_url": "https://www.linkedin.com/jobs/view/4461910203/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4461910203/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": "Western Financial Group",
+  "company_website": "http://www.westernfinancialgroup.ca",
+  "company_linkedin_url": "https://www.linkedin.com/company/westernfinancialgroup",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4461910203/",
+      "job_id": "4461910203"
+    },
+    {
+      "url": "https://www.linkedin.com/company/westernfinancialgroup",
+      "field": "website",
+      "value": "http://www.westernfinancialgroup.ca"
+    }
+  ],
+  "careers_url": null,
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:49:06.290564+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:49:22.297936+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Western Financial Group.",
+      "url": "http://www.westernfinancialgroup.ca"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:49:43.588186+00:00",
+      "stage": "failed",
+      "message": "Navigation failed: net::ERR_HTTP_RESPONSE_CODE_FAILURE"
+    }
+  ],
+  "failure_code": "browser_action_failed",
+  "failure_reason": "Navigation failed: net::ERR_HTTP_RESPONSE_CODE_FAILURE",
+  "created_at": "2026-09-16T22:49:06.277566+00:00",
+  "started_at": "2026-09-16T22:49:06.277768+00:00",
+  "finished_at": "2026-09-16T22:49:43.588163+00:00",
+  "duration_ms": 37310,
+  "model_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "requests": 0
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "RaFnDCJ6c5mNLwyY3",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "FIolHvFyByd6abCb9",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {},
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

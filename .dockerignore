@@ -1,0 +1,13 @@
+.git
+.env*
+.venv
+data
+tests
+evaluation
+scripts
+__pycache__
+.pytest_cache
+.ruff_cache
+*.md
+node_modules
+_private

@@ -1,0 +1,56 @@
+{
+  "run_id": "58f9ab1dd1ff467982a4cd422ec9af83",
+  "input_url": "https://www.linkedin.com/jobs/view/4455936436/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4455936436/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": null,
+  "company_website": null,
+  "company_linkedin_url": null,
+  "identity_sources": [],
+  "careers_url": null,
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:58:29.020652+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:58:45.041427+00:00",
+      "stage": "failed",
+      "message": "The company profile has no official website."
+    }
+  ],
+  "failure_code": "website_missing",
+  "failure_reason": "The company profile has no official website.",
+  "created_at": "2026-09-16T22:58:29.008357+00:00",
+  "started_at": "2026-09-16T22:58:29.008542+00:00",
+  "finished_at": "2026-09-16T22:58:45.041346+00:00",
+  "duration_ms": 16033,
+  "model_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "requests": 0
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "8a1YUSqGhBWgKxqxm",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "TOhnYwXV1Ljtn5Avh",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {},
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

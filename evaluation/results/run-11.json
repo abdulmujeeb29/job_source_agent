@@ -1,0 +1,73 @@
+{
+  "run_id": "958eccb7e3e8492f81b8481886add41d",
+  "input_url": "https://www.linkedin.com/jobs/view/4467433945/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4467433945/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": "Quik Hire Staffing",
+  "company_website": "https://www.quikhire.co.in",
+  "company_linkedin_url": "https://www.linkedin.com/company/quik-hire-staffing",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4467433945/",
+      "job_id": "4467433945"
+    },
+    {
+      "url": "https://www.linkedin.com/company/quik-hire-staffing",
+      "field": "website",
+      "value": "https://www.quikhire.co.in"
+    }
+  ],
+  "careers_url": null,
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:50:02.082545+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:50:22.248759+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Quik Hire Staffing.",
+      "url": "https://www.quikhire.co.in"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:50:44.070675+00:00",
+      "stage": "failed",
+      "message": "Navigation failed: net::ERR_TUNNEL_CONNECTION_FAILED"
+    }
+  ],
+  "failure_code": "browser_action_failed",
+  "failure_reason": "Navigation failed: net::ERR_TUNNEL_CONNECTION_FAILED",
+  "created_at": "2026-09-16T22:50:02.069047+00:00",
+  "started_at": "2026-09-16T22:50:02.069718+00:00",
+  "finished_at": "2026-09-16T22:50:44.070635+00:00",
+  "duration_ms": 42001,
+  "model_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "requests": 0
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "g9f5Tiu1BZy8xFMxh",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "6B7TennAS7y9eNl8W",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {},
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

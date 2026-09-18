@@ -1,0 +1,269 @@
+{
+  "run_id": "230b66a536f44ec4aef811dd553873b6",
+  "input_url": "https://www.linkedin.com/jobs/view/4464950014/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4464950014/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "U.S. Bank",
+  "company_website": "https://www.usbank.com/index.html",
+  "company_linkedin_url": "https://www.linkedin.com/company/us-bank",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4464950014/",
+      "job_id": "4464950014"
+    },
+    {
+      "url": "https://www.linkedin.com/company/us-bank",
+      "field": "website",
+      "value": "https://www.usbank.com/index.html"
+    }
+  ],
+  "careers_url": "https://careers.usbank.com/global/en",
+  "jobs_url": "https://careers.usbank.com/global/en/search-results",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "U.S. Bank is an equal opportunity employer committed to creating a diverse workforce.",
+    "collection_evidence": "1400 results",
+    "listings": [
+      {
+        "title": "Wealth Management Advisor - Farmington, MO",
+        "url": "https://careers.usbank.com/global/en/job/2025-0010215/Wealth-Management-Advisor-Farmington-MO"
+      },
+      {
+        "title": "Core Banking developer",
+        "url": "https://careers.usbank.com/global/en/job/2026-0006184/Core-Banking-developer"
+      },
+      {
+        "title": "Senior Integration Engineer",
+        "url": "https://careers.usbank.com/global/en/job/2026-0006182/Senior-Integration-Engineer"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Wealth Management Advisor - Farmington, MO",
+        "url": "https://careers.usbank.com/global/en/job/2025-0010215/Wealth-Management-Advisor-Farmington-MO",
+        "frame_url": "https://careers.usbank.com/global/en/search-results",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Core Banking developer",
+        "url": "https://careers.usbank.com/global/en/job/2026-0006184/Core-Banking-developer",
+        "frame_url": "https://careers.usbank.com/global/en/search-results",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Senior Integration Engineer",
+        "url": "https://careers.usbank.com/global/en/job/2026-0006182/Senior-Integration-Engineer",
+        "frame_url": "https://careers.usbank.com/global/en/search-results",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://careers.usbank.com/global/en/job/2025-0010215/Wealth-Management-Advisor-Farmington-MO",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:38:53.855524+00:00",
+    "page_url": "https://careers.usbank.com/global/en/search-results",
+    "screenshot": "/api/runs/230b66a536f44ec4aef811dd553873b6/artifacts/step-05.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:37:48.521761+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:38:07.414085+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for U.S. Bank.",
+      "url": "https://www.usbank.com/index.html"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:38:18.930078+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.usbank.com/index.html",
+      "title": "Personal Banking, Credit Cards, Loans & Investing | U.S. Bank",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:38:23.888959+00:00",
+      "stage": "deciding",
+      "message": "Follow the official website’s Careers link to find public job listings.",
+      "url": "https://www.usbank.com/index.html",
+      "action": "click",
+      "target": "@e78",
+      "page_kind": "other",
+      "screenshot": "/api/runs/230b66a536f44ec4aef811dd553873b6/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:38:27.770234+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.usbank.com/index.html",
+      "action": "click",
+      "target": "@e78"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:38:30.566215+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://careers.usbank.com/global/en",
+      "title": "Careers at U.S. Bank | Find a Career",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:38:34.194438+00:00",
+      "stage": "deciding",
+      "message": "The careers page shows “Search and apply,” but its controls are not yet available; wait for them to load.",
+      "url": "https://careers.usbank.com/global/en",
+      "action": "wait",
+      "target": "",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/230b66a536f44ec4aef811dd553873b6/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:38:35.595767+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://careers.usbank.com/global/en",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:38:35.725838+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://careers.usbank.com/global/en",
+      "title": "Careers at U.S. Bank | Find a Career",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:38:39.121383+00:00",
+      "stage": "deciding",
+      "message": "Follow “Search and apply” to the public jobs collection.",
+      "url": "https://careers.usbank.com/global/en",
+      "action": "click",
+      "target": "@e25",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/230b66a536f44ec4aef811dd553873b6/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:38:40.315335+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://careers.usbank.com/global/en",
+      "action": "click",
+      "target": "@e25"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:38:40.981006+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://careers.usbank.com/global/en/search-results",
+      "title": "Search results | Find available job openings at U.S. Bank",
+      "step": 4
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:38:43.656148+00:00",
+      "stage": "deciding",
+      "message": "The search-results page has loaded its shell but no roles or explicit empty-state message; wait for the jobs collection to render.",
+      "url": "https://careers.usbank.com/global/en/search-results",
+      "action": "wait",
+      "target": "",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/230b66a536f44ec4aef811dd553873b6/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:38:45.059033+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://careers.usbank.com/global/en/search-results",
+      "action": "wait",
+      "target": ""
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:38:45.268972+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://careers.usbank.com/global/en/search-results",
+      "title": "Search results | Find available job openings at U.S. Bank",
+      "step": 5
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:38:51.305359+00:00",
+      "stage": "deciding",
+      "message": "U.S. Bank’s public jobs collection displays 1400 results, search filters, pagination, and direct job-detail links.",
+      "url": "https://careers.usbank.com/global/en/search-results",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/230b66a536f44ec4aef811dd553873b6/artifacts/step-05.png",
+      "step": 5
+    },
+    {
+      "id": 17,
+      "at": "2026-09-16T22:38:51.306571+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://careers.usbank.com/global/en/search-results"
+    },
+    {
+      "id": 18,
+      "at": "2026-09-16T22:38:54.471598+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:37:48.507912+00:00",
+  "started_at": "2026-09-16T22:37:48.508119+00:00",
+  "finished_at": "2026-09-16T22:38:54.471486+00:00",
+  "duration_ms": 65963,
+  "model_usage": {
+    "input_tokens": 30470,
+    "output_tokens": 485,
+    "requests": 5
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "4tDeQyWe0G9kop7Ve",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "EW8lP3Tz1XC0wwzOS",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 5
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

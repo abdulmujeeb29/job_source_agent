@@ -1,0 +1,29 @@
+.env*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+data/
+.ruff_cache/
+node_modules/
+*.egg-info/
+
+# Internal working materials
+_private/
+
+# Internal testing / iteration docs — not part of the submission.
+/TESTING.md
+/evaluation/COMPARISON.md
+/evaluation/NEWEST_PROTOCOL.md
+/evaluation/POSTFIX_PROTOCOL.md
+/evaluation/FRESH_SAMPLE_PROMPT.md
+/evaluation/newest-v3/
+/evaluation/postfix-v2/
+/evaluation/fresh-current/
+/evaluation/gemini-candidates-20260917/
+/evaluation/*-source.zip
+/evaluation/*-source.artifacts.sha256.json
+/evaluation/baseline-artifacts.sha256.json
+/evaluation/development.json

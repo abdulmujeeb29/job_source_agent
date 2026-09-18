@@ -1,0 +1,244 @@
+{
+  "run_id": "47f07e455e294ffc8432747a30a44204",
+  "input_url": "https://www.linkedin.com/jobs/view/4445180104/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4445180104/",
+  "status": "failed",
+  "stage": "failed",
+  "company_name": "Movate",
+  "company_website": "https://www.movate.com/",
+  "company_linkedin_url": "https://www.linkedin.com/company/movate",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4445180104/",
+      "job_id": "4445180104"
+    },
+    {
+      "url": "https://www.linkedin.com/company/movate",
+      "field": "website",
+      "value": "https://www.movate.com/"
+    }
+  ],
+  "careers_url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+  "jobs_url": null,
+  "verification": {},
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:44:10.656567+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:44:26.244161+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for Movate.",
+      "url": "https://www.movate.com/"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:44:52.265270+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.movate.com/",
+      "title": "AI-Driven Digital Transformation & IT Services for Enterprises | Movate",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:44:56.590078+00:00",
+      "stage": "deciding",
+      "message": "Follow the official site's Latest job openings link to inspect the jobs collection.",
+      "url": "https://www.movate.com/",
+      "action": "click",
+      "target": "@e67",
+      "page_kind": "other",
+      "screenshot": "/api/runs/47f07e455e294ffc8432747a30a44204/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:44:58.242747+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.movate.com/",
+      "action": "click",
+      "target": "@e67"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:45:02.339870+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "title": "Career Openings: Your Path to New Opportunities at Movate",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:45:08.667887+00:00",
+      "stage": "deciding",
+      "message": "Movate’s official jobs collection shows multiple openings, location and experience filters, pagination, and direct job-detail links.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/47f07e455e294ffc8432747a30a44204/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:45:08.676581+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:45:08.679033+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/"
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:45:08.769606+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "title": "Career Openings: Your Path to New Opportunities at Movate",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:45:13.366108+00:00",
+      "stage": "deciding",
+      "message": "The official Movate site displays a paginated jobs collection with filters and directly linked openings.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/47f07e455e294ffc8432747a30a44204/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:45:13.366784+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/"
+    },
+    {
+      "id": 13,
+      "at": "2026-09-16T22:45:13.367438+00:00",
+      "stage": "recovering",
+      "message": "A claimed job title is not grounded in the visible job link.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/"
+    },
+    {
+      "id": 14,
+      "at": "2026-09-16T22:45:13.450599+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "title": "Career Openings: Your Path to New Opportunities at Movate",
+      "step": 4
+    },
+    {
+      "id": 15,
+      "at": "2026-09-16T22:45:19.452471+00:00",
+      "stage": "deciding",
+      "message": "Inspect a directly linked role to confirm its title and destination after the verification mismatch.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "action": "click",
+      "target": "@e132",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/47f07e455e294ffc8432747a30a44204/artifacts/step-04.png",
+      "step": 4
+    },
+    {
+      "id": 16,
+      "at": "2026-09-16T22:45:20.536002+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "action": "click",
+      "target": "@e132"
+    },
+    {
+      "id": 17,
+      "at": "2026-09-16T22:45:23.787255+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.movate.com/jobs/team-lead-technical-support/",
+      "title": "Team Lead Technical Support - Movate",
+      "step": 5
+    },
+    {
+      "id": 18,
+      "at": "2026-09-16T22:45:27.842052+00:00",
+      "stage": "deciding",
+      "message": "Confirmed the role title and exact destination; return to the jobs collection before verification.",
+      "url": "https://www.movate.com/jobs/team-lead-technical-support/",
+      "action": "back",
+      "target": "",
+      "page_kind": "job_detail",
+      "screenshot": "/api/runs/47f07e455e294ffc8432747a30a44204/artifacts/step-05.png",
+      "step": 5
+    },
+    {
+      "id": 19,
+      "at": "2026-09-16T22:45:32.016326+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.movate.com/jobs/team-lead-technical-support/",
+      "action": "back",
+      "target": ""
+    },
+    {
+      "id": 20,
+      "at": "2026-09-16T22:45:32.204043+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.movate.com/careers/job-listing-explore-career-openings-at-movate/",
+      "title": "Career Openings: Your Path to New Opportunities at Movate",
+      "step": 6
+    },
+    {
+      "id": 21,
+      "at": "2026-09-16T22:45:36.698140+00:00",
+      "stage": "failed",
+      "message": "The agent repeated the same action without page progress."
+    }
+  ],
+  "failure_code": "navigation_exhausted",
+  "failure_reason": "The agent repeated the same action without page progress.",
+  "created_at": "2026-09-16T22:44:10.642211+00:00",
+  "started_at": "2026-09-16T22:44:10.642712+00:00",
+  "finished_at": "2026-09-16T22:45:36.698108+00:00",
+  "duration_ms": 86055,
+  "model_usage": {
+    "input_tokens": 52478,
+    "output_tokens": 882,
+    "requests": 6
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "YgaglWNxsrFpdTdql",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "YpBdHAZZ8wMWoae4w",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 6
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}

@@ -1,0 +1,207 @@
+{
+  "run_id": "fe2d182d91774cc199c2607cb0f2feb0",
+  "input_url": "https://www.linkedin.com/jobs/view/4463903973/",
+  "normalized_input_url": "https://www.linkedin.com/jobs/view/4463903973/",
+  "status": "succeeded",
+  "stage": "succeeded",
+  "company_name": "USAA",
+  "company_website": "http://www.usaajobs.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/usaa",
+  "identity_sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4463903973/",
+      "job_id": "4463903973"
+    },
+    {
+      "url": "https://www.linkedin.com/company/usaa",
+      "field": "website",
+      "value": "http://www.usaajobs.com"
+    }
+  ],
+  "careers_url": "https://www.usaajobs.com/",
+  "jobs_url": "https://www.usaajobs.com/search-jobs/",
+  "verification": {
+    "outcome": "verified",
+    "company_evidence": "Search USAA job opportunities",
+    "collection_evidence": "Jobs - 210 jobs displayed",
+    "listings": [
+      {
+        "title": "Property Adjuster Specialist - Field Claims",
+        "url": "https://www.usaajobs.com/job/manhattan/property-adjuster-specialist-field-claims/1207/100720261808"
+      },
+      {
+        "title": "Property Claims Adjuster Specialist",
+        "url": "https://www.usaajobs.com/job/las-cruces/property-claims-adjuster-specialist/1207/100720261744"
+      },
+      {
+        "title": "Injury Adjuster Apprentice",
+        "url": "https://www.usaajobs.com/job/san-antonio/injury-adjuster-apprentice/1207/100714262288"
+      }
+    ],
+    "link_provenance": [
+      {
+        "text": "Property Adjuster Specialist - Field Claims\nSept. 16, 2026\nManhattan, KS",
+        "url": "https://www.usaajobs.com/job/manhattan/property-adjuster-specialist-field-claims/1207/100720261808",
+        "frame_url": "https://www.usaajobs.com/search-jobs/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Property Claims Adjuster Specialist\nSept. 16, 2026\nLas Cruces, NM",
+        "url": "https://www.usaajobs.com/job/las-cruces/property-claims-adjuster-specialist/1207/100720261744",
+        "frame_url": "https://www.usaajobs.com/search-jobs/",
+        "provenance": "rendered_anchor"
+      },
+      {
+        "text": "Injury Adjuster Apprentice\nSept. 16, 2026\nSan Antonio, TX",
+        "url": "https://www.usaajobs.com/job/san-antonio/injury-adjuster-apprentice/1207/100714262288",
+        "frame_url": "https://www.usaajobs.com/search-jobs/",
+        "provenance": "rendered_anchor"
+      }
+    ],
+    "detail_check": {
+      "url": "https://www.usaajobs.com/job/manhattan/property-adjuster-specialist-field-claims/1207/100720261808",
+      "http_status": 200,
+      "title_confirmed": true
+    },
+    "observed_at": "2026-09-16T22:51:35.596660+00:00",
+    "page_url": "https://www.usaajobs.com/search-jobs/",
+    "screenshot": "/api/runs/fe2d182d91774cc199c2607cb0f2feb0/artifacts/step-03.png"
+  },
+  "navigation_events": [
+    {
+      "id": 1,
+      "at": "2026-09-16T22:50:44.093029+00:00",
+      "stage": "extracting",
+      "message": "Retrieving the LinkedIn job and its company website."
+    },
+    {
+      "id": 2,
+      "at": "2026-09-16T22:50:59.808847+00:00",
+      "stage": "opening",
+      "message": "Opening the official website for USAA.",
+      "url": "http://www.usaajobs.com"
+    },
+    {
+      "id": 3,
+      "at": "2026-09-16T22:51:12.695555+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.usaajobs.com/",
+      "title": "Working at USAA | Jobs and Careers at USAA",
+      "step": 1
+    },
+    {
+      "id": 4,
+      "at": "2026-09-16T22:51:17.756328+00:00",
+      "stage": "deciding",
+      "message": "Follow the all-open-opportunities link to USAA’s full jobs collection.",
+      "url": "https://www.usaajobs.com/",
+      "action": "click",
+      "target": "@e24",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/fe2d182d91774cc199c2607cb0f2feb0/artifacts/step-01.png",
+      "step": 1
+    },
+    {
+      "id": 5,
+      "at": "2026-09-16T22:51:17.779526+00:00",
+      "stage": "recovering",
+      "message": "Element '@e24' is covered by <div inside div#system-imessage> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).",
+      "url": "https://www.usaajobs.com/"
+    },
+    {
+      "id": 6,
+      "at": "2026-09-16T22:51:17.881308+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.usaajobs.com/",
+      "title": "Working at USAA | Jobs and Careers at USAA",
+      "step": 2
+    },
+    {
+      "id": 7,
+      "at": "2026-09-16T22:51:21.306321+00:00",
+      "stage": "deciding",
+      "message": "Open the observed all-opportunities URL directly because an overlay blocked the link click.",
+      "url": "https://www.usaajobs.com/",
+      "action": "open",
+      "target": "https://www.usaajobs.com/search-jobs/",
+      "page_kind": "careers",
+      "screenshot": "/api/runs/fe2d182d91774cc199c2607cb0f2feb0/artifacts/step-02.png",
+      "step": 2
+    },
+    {
+      "id": 8,
+      "at": "2026-09-16T22:51:26.863782+00:00",
+      "stage": "navigating",
+      "message": "Browser action completed; refreshing observations.",
+      "source_url": "https://www.usaajobs.com/",
+      "action": "open",
+      "target": "https://www.usaajobs.com/search-jobs/"
+    },
+    {
+      "id": 9,
+      "at": "2026-09-16T22:51:27.341337+00:00",
+      "stage": "observing",
+      "message": "Reading the current page and available navigation.",
+      "url": "https://www.usaajobs.com/search-jobs/",
+      "title": "Search Jobs at USAA",
+      "step": 3
+    },
+    {
+      "id": 10,
+      "at": "2026-09-16T22:51:33.192266+00:00",
+      "stage": "deciding",
+      "message": "USAA’s official jobs collection displays 210 jobs and direct links to individual roles.",
+      "url": "https://www.usaajobs.com/search-jobs/",
+      "action": "verify",
+      "target": "",
+      "page_kind": "listings",
+      "screenshot": "/api/runs/fe2d182d91774cc199c2607cb0f2feb0/artifacts/step-03.png",
+      "step": 3
+    },
+    {
+      "id": 11,
+      "at": "2026-09-16T22:51:33.193096+00:00",
+      "stage": "verifying",
+      "message": "Checking company identity, collection evidence, and a sampled role.",
+      "url": "https://www.usaajobs.com/search-jobs/"
+    },
+    {
+      "id": 12,
+      "at": "2026-09-16T22:51:35.780522+00:00",
+      "stage": "succeeded",
+      "message": "Jobs list verified with browser evidence."
+    }
+  ],
+  "failure_code": null,
+  "failure_reason": null,
+  "created_at": "2026-09-16T22:50:44.079053+00:00",
+  "started_at": "2026-09-16T22:50:44.079506+00:00",
+  "finished_at": "2026-09-16T22:51:35.780495+00:00",
+  "duration_ms": 51701,
+  "model_usage": {
+    "input_tokens": 51922,
+    "output_tokens": 395,
+    "requests": 3
+  },
+  "provider_usage": [
+    {
+      "actor": "piotrv1001/linkedin-job-details-scraper",
+      "run_id": "YB6d3PeQbvwaBIQDm",
+      "status": "SUCCEEDED",
+      "cost_usd": 0
+    },
+    {
+      "actor": "harvestapi/linkedin-company",
+      "run_id": "76dNnBt8g1czKhpcL",
+      "status": "SUCCEEDED",
+      "cost_usd": 0.00005
+    }
+  ],
+  "attempt_counts": {
+    "steps": 3
+  },
+  "config_version": "0.1.0",
+  "build_revision": "local"
+}
