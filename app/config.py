@@ -15,7 +15,7 @@ class Settings(BaseSettings):
         return init_settings, dotenv_settings, env_settings, file_secret_settings
 
     azure_openai_base_url: str = ""
-    azure_openai_model: str = "gpt-6-astra"
+    azure_openai_model: str = "gpt-5.6-terra-1"
     azure_openai_api_key: SecretStr = SecretStr("")
     apify_api_token: SecretStr = SecretStr("")
     apify_job_actor: str = "piotrv1001/linkedin-job-details-scraper"
